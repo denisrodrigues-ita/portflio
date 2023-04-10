@@ -7,6 +7,7 @@ import Projetos from "./pages/Projetos";
 import Contato from "./pages/Contato";
 import Skills from "./pages/Skills";
 
+
 const App = () => {
   return (
     <BrowserRouter>
