@@ -1,0 +1,22 @@
+.sobre {
+  height: calc(100vh - 56px);
+}
+
+.sobre p {
+  text-align: justify;
+}
+
+.sobre img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+/* @media(max-width: 770px) {
+  .sobre .row {
+    display: flex;
+    flex-direction: row;
+
+
+  }
+} */

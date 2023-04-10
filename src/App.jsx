@@ -11,7 +11,7 @@ const App = () => {
   return (
     <BrowserRouter>
       <Header />
-      <main className="container">
+      <main>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="sobre" element={<Sobre />} />
