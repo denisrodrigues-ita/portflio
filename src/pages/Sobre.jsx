@@ -85,7 +85,7 @@ const Sobre = () => {
         <div className="col-12 col-md-6 order-0 order-md-1">
           <div className="row "></div>
           <p>
-            Como desenvolvedor(a) front-end, estou comprometido(a) em criar
+            Como desenvolvedor front-end, estou comprometido em criar
             interfaces web e móveis de alta qualidade que sejam intuitivas,
             funcionais e agradáveis aos usuários. Além disso, tenho sólidas
             habilidades em resolução de problemas e colaboração em equipe,
@@ -122,8 +122,8 @@ const Sobre = () => {
         </div>
         <div className="col-12 col-md-6 order-0 order-md-1">
           <p>
-            Se você está procurando um(a) desenvolvedor(a) front-end
-            apaixonado(a) e altamente motivado(a) para trabalhar em sua equipe,
+            Se você está procurando um desenvolvedor front-end
+            apaixonado e altamente motivado para trabalhar em sua equipe,
             entre em contato comigo. Será um prazer conversar com você sobre
             como posso ajudar a impulsionar seus projetos.
           </p>
