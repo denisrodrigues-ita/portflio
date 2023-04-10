@@ -8,14 +8,14 @@ import ilustracao6 from "../img/sobre/ilustracao6.jpg";
 
 import styles from "../css/sobre.module.css";
 
-document.title = "Denis Rodrigues - Sobre";
-
 const Sobre = () => {
+  document.title = "Denis Rodrigues - Sobre";
+
   return (
     <section
       className={`${styles.sobre} container justify-content-center align-items-center fs-5`}
     >
-      <div className="row my-5 align-items-center align-items-center">
+      <div className="row my-5 align-items-center">
         <div className="col-12 col-md-6">
           <p>
             Olá, meu nome é Denis Rodrigues, sou um desenvolvedor front-end e
@@ -49,6 +49,7 @@ const Sobre = () => {
             objetivo criar interfaces de alta qualidade e experiências
             intuitivas para os usuários. Busco sempre me manter atualizado sobre
             as tendências e novidades do mercado, e estou constantemente
+            
             aprimorando minhas habilidades através da aprendizagem contínua e do
             trabalho em equipe.
           </p>

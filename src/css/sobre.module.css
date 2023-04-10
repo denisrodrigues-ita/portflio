@@ -11,12 +11,3 @@
   height: 300px;
   object-fit: cover;
 }
-
-/* @media(max-width: 770px) {
-  .sobre .row {
-    display: flex;
-    flex-direction: row;
-
-
-  }
-} */
