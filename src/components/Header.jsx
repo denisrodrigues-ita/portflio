@@ -1,9 +1,16 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import {
+  AiOutlineWhatsApp,
+  AiOutlineInstagram,
+  AiOutlineLinkedin,
+  AiOutlineGithub,
+} from "react-icons/ai";
+import styles from "../css/header.module.css";
 
 const Header = () => {
   return (
-    <header>
+    <header className={styles.headerCustom}>
       <nav
         className="navbar navbar-expand-lg bg-body-tertiary"
         data-bs-theme="dark"
@@ -48,6 +55,21 @@ const Header = () => {
                   Contato
                 </NavLink>
               </li>
+
+              <div className={`${styles.socialMidias} d-flex`}>
+                <a href="https://wa.me/+5535984484087" target="_blank">
+                  <AiOutlineWhatsApp />
+                </a>
+                <a href="https://www.instagram.com/denisrodrigues.ita/" target="_blank">
+                  <AiOutlineInstagram />
+                </a>
+                <a href="https://www.linkedin.com/in/denisrodrigues-ita/" target="_blank">
+                  <AiOutlineLinkedin />
+                </a>
+                <a href="https://github.com/denisrodrigues-ita" target="_blank">
+                  <AiOutlineGithub />
+                </a>
+              </div>
             </ul>
           </div>
         </div>

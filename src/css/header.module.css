@@ -1,0 +1,24 @@
+.headerCustom a {
+  box-sizing: border-box;
+  font-size: large;
+  border-bottom: none;
+  border-top: none;
+  padding: 10px;
+  border: 1px solid transparent;
+  transition: all .3s ease;
+}
+
+.headerCustom a:hover {
+  border-bottom: 1px solid var(--bs-nav-link-color);
+  border-top: 1px solid var(--bs-nav-link-color);
+}
+
+.socialMidias {
+  display: none
+}
+
+@media (max-width: 992px) {
+  .socialMidias {
+    display: block;
+  }
+}
