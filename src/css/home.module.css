@@ -1,6 +1,6 @@
 .homeSection {
   background-image: url("../img/pc.jpg");
-  height: calc(100vh - 65px);
+  min-height: calc(100vh - 65px);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

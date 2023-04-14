@@ -60,10 +60,16 @@ const Header = () => {
                 <a href="https://wa.me/+5535984484087" target="_blank">
                   <AiOutlineWhatsApp />
                 </a>
-                <a href="https://www.instagram.com/denisrodrigues.ita/" target="_blank">
+                <a
+                  href="https://www.instagram.com/denisrodrigues.ita/"
+                  target="_blank"
+                >
                   <AiOutlineInstagram />
                 </a>
-                <a href="https://www.linkedin.com/in/denisrodrigues-ita/" target="_blank">
+                <a
+                  href="https://www.linkedin.com/in/denisrodrigues-ita/"
+                  target="_blank"
+                >
                   <AiOutlineLinkedin />
                 </a>
                 <a href="https://github.com/denisrodrigues-ita" target="_blank">

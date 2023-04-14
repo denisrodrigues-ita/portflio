@@ -1,0 +1,10 @@
+.skills {
+  min-height: calc(100vh - 56px);
+}
+
+.skills img {
+  min-width: 40px;
+  min-height: 40px; 
+   max-width: 200px; 
+   max-height: 100px;
+}

@@ -5,7 +5,7 @@
   border-top: none;
   padding: 10px;
   border: 1px solid transparent;
-  transition: all .3s ease;
+  transition: all 0.3s ease;
 }
 
 .headerCustom a:hover {
@@ -14,11 +14,28 @@
 }
 
 .socialMidias {
-  display: none
+  display: none;
+}
+
+.socialMidias a:hover {
+  scale: 1.3;
+  border-bottom: transparent;
+  border-top: transparent;
 }
 
 @media (max-width: 992px) {
   .socialMidias {
     display: block;
+  }
+
+  .socialMidias {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  .socialMidias svg {
+    font-size: 2rem;
   }
 }
