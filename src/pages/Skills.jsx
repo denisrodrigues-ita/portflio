@@ -145,19 +145,19 @@ const Skills = () => {
               <div className="d-flex align-items-baseline justify-content-between my-3">
                 <p>Estrutura do documento</p>
                 <div style={{ width: 80, height: 80 }}>
-                  <CircularProgressBar value={100} />
+                  <CircularProgressBar value={96} />
                 </div>
               </div>
               <div className="d-flex align-items-baseline justify-content-between my-3">
                 <p>tags semânticas</p>
                 <div style={{ width: 80, height: 80 }}>
-                  <CircularProgressBar value={95} />
+                  <CircularProgressBar value={94} />
                 </div>
               </div>
               <div className="d-flex align-items-baseline justify-content-between my-3">
                 <p>Utilização de elementos de formulário</p>
                 <div style={{ width: 80, height: 80 }}>
-                  <CircularProgressBar value={95} />
+                  <CircularProgressBar value={94} />
                 </div>
               </div>
             </div>
