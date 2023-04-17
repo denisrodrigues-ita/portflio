@@ -16,9 +16,9 @@ const Skills = () => {
       <section
         className={`${styles.skills} container d-flex justify-content-center align-items-center mt-5`}
       >
-        <div className="row row-cols-2 row-cols-md-3 g-4">
+        <div className="row row-cols-2 row-cols-md-3 g-2">
           <div className="col">
-            <div className="card h-100">
+            <div className="card h-100 text-dark bg-light border-secundary">
               <FaHtml5 size={100} />
               <div className="card-body">
                 <h5 className="card-title">HTML5</h5>
@@ -33,7 +33,7 @@ const Skills = () => {
             </div>
           </div>
           <div className="col">
-            <div className="card h-100">
+            <div className="card h-100 text-dark bg-light border-secundary">
               <FaCss3 size={100} />
               <div className="card-body">
                 <h5 className="card-title">CSS3</h5>
@@ -47,7 +47,7 @@ const Skills = () => {
             </div>
           </div>
           <div className="col">
-            <div className="card h-100">
+            <div className="card h-100 text-dark bg-light border-secundary">
               <TbBrandJavascript size={100} />
               <div className="card-body">
                 <h5 className="card-title">Javascript</h5>
@@ -62,7 +62,7 @@ const Skills = () => {
             </div>
           </div>
           <div className="col">
-            <div className="card h-100">
+            <div className="card h-100 text-dark bg-light border-secundary">
               <FaReact size={100} />
               <div className="card-body">
                 <h5 className="card-title">React.js</h5>
@@ -77,7 +77,7 @@ const Skills = () => {
             </div>
           </div>
           <div className="col">
-            <div className="card h-100">
+            <div className="card h-100 text-dark bg-light border-secundary">
               <FaReact size={100} />
               <div className="card-body">
                 <h5 className="card-title">React Native</h5>
@@ -96,7 +96,7 @@ const Skills = () => {
             </div>
           </div>
           <div className="col">
-            <div className="card h-100">
+            <div className="card h-100 text-dark bg-light border-secundary">
               <FaGithub size={100} />
               <div className="card-body">
                 <h5 className="card-title">GitHub</h5>
@@ -111,7 +111,7 @@ const Skills = () => {
             </div>
           </div>
           <div className="col">
-            <div className="card h-100">
+            <div className="card h-100 text-dark bg-light border-secundary">
               <FaBootstrap size={100} />
               <div className="card-body">
                 <h5 className="card-title">Bootstrap 5</h5>
@@ -128,10 +128,11 @@ const Skills = () => {
         </div>
       </section>
 
-      <section className="container mt-5">
-        <div>
-          <h1>Skills</h1>
-          <div id="html" style={{ maxWidth: "30rem" }} className="mx-auto">
+      <section className="mt-5 container">
+        <h1>Skills</h1>
+        <div className="row">
+          <div id="html" className="mx-auto col-12 col-md-6 ">
+            {/* <div id="html" style={{ maxWidth: "30rem" }} className="mx-auto"> */}
             <div className="d-flex justify-content-center align-items-center mt-5">
               <FaHtml5 size={50} />
               <h2 className="fs-3">HTML5</h2>
@@ -163,7 +164,8 @@ const Skills = () => {
             </div>
           </div>
 
-          <div id="css" style={{ maxWidth: "30rem" }} className="mx-auto">
+          {/* <div id="css" style={{ maxWidth: "30rem" }} className="mx-auto"> */}
+          <div id="css" className="mx-auto col-12 col-md-6 ">
             <div className="d-flex justify-content-center align-items-center mt-5">
               <FaCss3 size={50} />
               <h2 className="fs-3">CSS3</h2>
@@ -210,7 +212,7 @@ const Skills = () => {
             </div>
           </div>
 
-          <div id="js" style={{ maxWidth: "30rem" }} className="mx-auto">
+          <div id="js" className="mx-auto col-12 col-md-6 ">
             <div className="d-flex justify-content-center align-items-center mt-5">
               <TbBrandJavascript size={50} />
               <h2 className="fs-3">Javascript</h2>
@@ -246,7 +248,7 @@ const Skills = () => {
             </div>
           </div>
 
-          <div id="reactjs" style={{ maxWidth: "30rem" }} className="mx-auto">
+          <div id="reactjs" className="mx-auto col-12 col-md-6 ">
             <div className="d-flex justify-content-center align-items-center mt-5">
               <FaReact size={50} />
               <h2 className="fs-3">React.js</h2>
@@ -295,11 +297,7 @@ const Skills = () => {
             </div>
           </div>
 
-          <div
-            id="reactnative"
-            style={{ maxWidth: "30rem" }}
-            className="mx-auto"
-          >
+          <div id="reactnative" className="mx-auto col-12 col-lg-6 ">
             <div className="d-flex justify-content-center align-items-center mt-5">
               <FaReact size={50} />
               <h2 className="fs-3">React Native</h2>
@@ -356,9 +354,9 @@ const Skills = () => {
             </div>
           </div>
 
-          <div id="github" style={{ maxWidth: "30rem" }} className="mx-auto">
+          <div id="github" className="mx-auto col-12 col-md-6 ">
             <div className="d-flex justify-content-center align-items-center mt-5">
-              <FaReact size={50} />
+              <FaGithub size={50} />
               <h2 className="fs-3">GitHub</h2>
             </div>
             <p className="my-3 mx-auto">
@@ -388,9 +386,9 @@ const Skills = () => {
             </div>
           </div>
 
-          <div id="bootstrap" style={{ maxWidth: "30rem" }} className="mx-auto">
+          <div id="bootstrap" className="mx-auto col-12 col-md-6 ">
             <div className="d-flex justify-content-center align-items-center mt-5">
-              <FaReact size={50} />
+              <FaBootstrap size={50} />
               <h2 className="fs-3">Bootstrap5</h2>
             </div>
             <p className="my-3 mx-auto">
