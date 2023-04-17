@@ -29,6 +29,7 @@ const Sobre = () => {
         <div className="col-12 col-md-6">
           <img
             className="img-fluid rounded"
+            loading="lazy"
             src={ilustracao1}
             alt="ilustracao"
           />
@@ -39,6 +40,7 @@ const Sobre = () => {
         <div className="col-12 col-md-6 order-1 order-md-0">
           <img
             className="img-fluid rounded"
+            loading="lazy"
             src={ilustracao2}
             alt="ilustracao"
           />
@@ -69,6 +71,7 @@ const Sobre = () => {
         <div className="col-12 col-md-6">
           <img
             className="img-fluid rounded"
+            loading="lazy"
             src={ilustracao3}
             alt="ilustacao"
           />
@@ -78,6 +81,7 @@ const Sobre = () => {
         <div className="col-12 col-md-6 order-1 order-md-0">
           <img
             className="img-fluid rounded"
+            loading="lazy"
             src={ilustracao4}
             alt="ilustracao"
           />
@@ -107,6 +111,7 @@ const Sobre = () => {
         <div className="col-12 col-md-6">
           <img
             className="img-fluid rounded"
+            loading="lazy"
             src={ilustracao5}
             alt="ilustracao"
           />
@@ -116,6 +121,7 @@ const Sobre = () => {
         <div className="col-12 col-md-6 order-1 order-md-0">
           <img
             className="img-fluid rounded"
+            loading="lazy"
             src={ilustracao6}
             alt="ilustracao"
           />
