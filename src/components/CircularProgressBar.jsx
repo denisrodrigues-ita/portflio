@@ -18,7 +18,7 @@ const CircularProgressBar = ({ value }) => {
                 transition: "stroke-dashoffset 2s ease 0s",
               },
               text: {
-                fill: "#fff",
+                fill: "#000",
               },
             }}
           />

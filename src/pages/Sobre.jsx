@@ -13,8 +13,9 @@ const Sobre = () => {
 
   return (
     <section
-      className={`${styles.sobre} container justify-content-center align-items-center fs-5`}
+      className={`${styles.sobre} container justify-content-center align-items-center fs-5 mt-5`}
     >
+      <h1>Sobre.</h1>
       <div className="row my-5 align-items-center">
         <div className="col-12 col-md-6">
           <p>
