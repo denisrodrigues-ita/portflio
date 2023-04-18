@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import ConsumoApi from "../img/projetos/ConsumoApi.png";
 import FlexEGrid from "../img/projetos/FlexEGrid.png";
 import Projetofinal from "../img/projetos/Projetofinal.png";
-import Projetojavascript from "../img/projetos/Projetojavascript.png";
+import Projetojavascript from "../img/projetos/ProjetoJavascript.png";
 import ProjetoReact from "../img/projetos/ProjetoReact.png";
 import { FaGithub } from "react-icons/fa";
 
