@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 import {
   AiOutlineWhatsApp,
   AiOutlineInstagram,
@@ -50,31 +50,29 @@ const Header = () => {
                   Projetos
                 </NavLink>
               </li>
-              <li className="nav-item">
-                <NavLink className="nav-link" to="contato">
-                  Contato
-                </NavLink>
-              </li>
 
               <div className={`${styles.socialMidias} d-flex`}>
-                <a href="https://wa.me/+5535984484087" target="_blank">
+                <Link href="https://wa.me/+5535984484087" target="_blank">
                   <AiOutlineWhatsApp />
-                </a>
-                <a
-                  href="https://www.instagram.com/denisrodrigues.ita/"
-                  target="_blank"
-                >
-                  <AiOutlineInstagram />
-                </a>
-                <a
+                </Link>
+                <Link
                   href="https://www.linkedin.com/in/denisrodrigues-ita/"
                   target="_blank"
                 >
                   <AiOutlineLinkedin />
-                </a>
-                <a href="https://github.com/denisrodrigues-ita" target="_blank">
+                </Link>
+                <Link
+                  href="https://github.com/denisrodrigues-ita"
+                  target="_blank"
+                >
                   <AiOutlineGithub />
-                </a>
+                </Link>
+                <Link
+                  href="https://www.instagram.com/denisrodrigues.ita/"
+                  target="_blank"
+                >
+                  <AiOutlineInstagram />
+                </Link>
               </div>
             </ul>
           </div>
