@@ -10,6 +10,8 @@ import { TbBrandJavascript } from "react-icons/tb";
 import CircularProgressBar from "../components/CircularProgressBar";
 import styles from "../css/skills.module.css";
 
+document.title = "Denis Rodrigues - Skills";
+
 const Skills = () => {
   return (
     <>
