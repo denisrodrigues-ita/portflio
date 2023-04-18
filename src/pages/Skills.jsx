@@ -43,7 +43,7 @@ const Skills = () => {
                 <div
                   className="modal fade"
                   id="html"
-                  tabindex="-1"
+                  tabIndex="-1"
                   aria-labelledby="html"
                   aria-hidden="true"
                 >
@@ -125,7 +125,7 @@ const Skills = () => {
                 <div
                   className="modal fade"
                   id="css"
-                  tabindex="-1"
+                  tabIndex="-1"
                   aria-labelledby="cssLabel"
                   aria-hidden="true"
                 >
@@ -223,7 +223,7 @@ const Skills = () => {
                 <div
                   className="modal fade"
                   id="js"
-                  tabindex="-1"
+                  tabIndex="-1"
                   aria-labelledby="jsLabel"
                   aria-hidden="true"
                 >
@@ -310,7 +310,7 @@ const Skills = () => {
                 <div
                   className="modal fade"
                   id="react"
-                  tabindex="-1"
+                  tabIndex="-1"
                   aria-labelledby="reactLabel"
                   aria-hidden="true"
                 >
@@ -398,7 +398,7 @@ const Skills = () => {
                 <div
                   className="modal fade"
                   id="reactNative"
-                  tabindex="-1"
+                  tabIndex="-1"
                   aria-labelledby="reactNativeLabel"
                   aria-hidden="true"
                 >
@@ -496,7 +496,7 @@ const Skills = () => {
                 {/* <!-- Button trigger modal --> */}
                 <button
                   type="button"
-                  class="btn btn-primary"
+                  className="btn btn-primary"
                   data-bs-toggle="modal"
                   data-bs-target="#github"
                 >
@@ -505,26 +505,26 @@ const Skills = () => {
 
                 {/* <!-- Modal --> */}
                 <div
-                  class="modal fade"
+                  className="modal fade"
                   id="github"
-                  tabindex="-1"
+                  tabIndex="-1"
                   aria-labelledby="githublLabel"
                   aria-hidden="true"
                 >
-                  <div class="modal-dialog">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h1 class="modal-title fs-5" id="githublLabel">
+                  <div className="modal-dialog">
+                    <div className="modal-content">
+                      <div className="modal-header">
+                        <h1 className="modal-title fs-5" id="githublLabel">
                           <FaGithub size={50} /> GitHub
                         </h1>
                         <button
                           type="button"
-                          class="btn-close"
+                          className="btn-close"
                           data-bs-dismiss="modal"
                           aria-label="Close"
                         ></button>
                       </div>
-                      <div class="modal-body">
+                      <div className="modal-body">
                         <p className="my-3 mx-auto">
                           GitHub é uma plataforma de hospedagem de código-fonte
                           na nuvem, que permite que desenvolvedores e equipes de
@@ -553,10 +553,10 @@ const Skills = () => {
                           </div>
                         </div>
                       </div>
-                      <div class="modal-footer">
+                      <div className="modal-footer">
                         <button
                           type="button"
-                          class="btn btn-secondary"
+                          className="btn btn-secondary"
                           data-bs-dismiss="modal"
                         >
                           Close
@@ -580,7 +580,7 @@ const Skills = () => {
                 {/* <!-- Button trigger modal --> */}
                 <button
                   type="button"
-                  class="btn btn-primary"
+                  className="btn btn-primary"
                   data-bs-toggle="modal"
                   data-bs-target="#bootstrap"
                 >
@@ -589,26 +589,26 @@ const Skills = () => {
 
                 {/* <!-- Modal --> */}
                 <div
-                  class="modal fade"
+                  className="modal fade"
                   id="bootstrap"
-                  tabindex="-1"
+                  tabIndex="-1"
                   aria-labelledby="bootstrapLabel"
                   aria-hidden="true"
                 >
-                  <div class="modal-dialog">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h1 class="modal-title fs-5" id="bootstrapLabel">
+                  <div className="modal-dialog">
+                    <div className="modal-content">
+                      <div className="modal-header">
+                        <h1 className="modal-title fs-5" id="bootstrapLabel">
                           <FaBootstrap size={50} /> Bootstrap 5
                         </h1>
                         <button
                           type="button"
-                          class="btn-close"
+                          className="btn-close"
                           data-bs-dismiss="modal"
                           aria-label="Close"
                         ></button>
                       </div>
-                      <div class="modal-body">
+                      <div className="modal-body">
                         <p className="my-3 mx-auto">
                           Bootstrap 5 é uma das mais populares bibliotecas de
                           componentes front-end para desenvolvimento web
@@ -643,10 +643,10 @@ const Skills = () => {
                           </div>
                         </div>
                       </div>
-                      <div class="modal-footer">
+                      <div className="modal-footer">
                         <button
                           type="button"
-                          class="btn btn-secondary"
+                          className="btn btn-secondary"
                           data-bs-dismiss="modal"
                         >
                           Close
