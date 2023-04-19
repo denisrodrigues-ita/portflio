@@ -76,8 +76,8 @@ const Projetos = () => {
                   >
                     <FaGithub size={30} />
                   </Link>
-                  <p class="card-text mt-2">
-                    <small class="text-body-secondary">
+                  <p className="card-text mt-2">
+                    <small className="text-body-secondary">
                       <strong>Tecnologias: </strong>
                       HTML e CSS.
                     </small>
@@ -140,8 +140,8 @@ const Projetos = () => {
                   >
                     <FaGithub size={30} />
                   </Link>
-                  <p class="card-text mt-2">
-                    <small class="text-body-secondary">
+                  <p className="card-text mt-2">
+                    <small className="text-body-secondary">
                       <strong>Tecnologias: </strong>
                       HTML, CSS e javascript.
                     </small>
@@ -205,8 +205,8 @@ const Projetos = () => {
                   >
                     <FaGithub size={30} />
                   </Link>
-                  <p class="card-text mt-2">
-                    <small class="text-body-secondary">
+                  <p className="card-text mt-2">
+                    <small className="text-body-secondary">
                       <strong>Tecnologias: </strong>
                       HTML, CSS e javascript.
                     </small>
@@ -274,8 +274,8 @@ const Projetos = () => {
                   >
                     <FaGithub size={30} />
                   </Link>
-                  <p class="card-text mt-2">
-                    <small class="text-body-secondary">
+                  <p className="card-text mt-2">
+                    <small className="text-body-secondary">
                       <strong>Tecnologias: </strong>
                       HTML, CSS, Javascript e React.
                     </small>
@@ -346,8 +346,8 @@ const Projetos = () => {
                   >
                     <FaGithub size={30} />
                   </Link>
-                  <p class="card-text mt-2">
-                    <small class="text-body-secondary">
+                  <p className="card-text mt-2">
+                    <small className="text-body-secondary">
                       <strong>Tecnologias: </strong>
                       HTML, CSS, Javascript e React.
                     </small>
