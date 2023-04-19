@@ -11,7 +11,7 @@ import ReactGA from "react-ga4";
 document.title = "Denis Rodrigues - Portfolio";
 
 const Projetos = () => {
-  useEffect(() => {
+  React.useEffect(() => {
     ReactGA.send({ hitType: "pageview", page: window.location.pathname });
   }, []);
 

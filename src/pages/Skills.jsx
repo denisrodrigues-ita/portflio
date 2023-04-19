@@ -14,7 +14,7 @@ import ReactGA from "react-ga4";
 document.title = "Denis Rodrigues - Skills";
 
 const Skills = () => {
-  useEffect(() => {
+  React.useEffect(() => {
     ReactGA.send({ hitType: "pageview", page: window.location.pathname });
   }, []);
 

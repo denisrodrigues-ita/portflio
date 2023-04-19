@@ -12,7 +12,7 @@ import styles from "../css/sobre.module.css";
 document.title = "Denis Rodrigues - Sobre";
 
 const Sobre = () => {
-  useEffect(() => {
+  React.useEffect(() => {
     ReactGA.send({ hitType: "pageview", page: window.location.pathname });
   }, []);
   return (

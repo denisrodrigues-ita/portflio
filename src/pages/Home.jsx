@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+import React from "react";
 import "animate.css";
 import styles from "../css/home.module.css";
 import ReactGA from "react-ga4";
@@ -6,16 +6,16 @@ import ReactGA from "react-ga4";
 document.title = "Denis Rodrigues - Home";
 
 const Home = () => {
-  useEffect(() => {
+  React.useEffect(() => {
     ReactGA.send({ hitType: "pageview", page: window.location.pathname });
   }, []);
 
-  const titleRef = useRef(null);
-  const p1Ref = useRef(null);
-  const p2Ref = useRef(null);
-  const p3Ref = useRef(null);
+  const titleRef = React.useRef(null);
+  const p1Ref = React.useRef(null);
+  const p2Ref = React.useRef(null);
+  const p3Ref = React.useRef(null);
 
-  useEffect(() => {
+  React.useEffect(() => {
     const titleEl = titleRef.current;
     const p1El = p1Ref.current;
     const p2El = p2Ref.current;
