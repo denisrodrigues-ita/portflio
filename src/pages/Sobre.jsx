@@ -8,9 +8,9 @@ import ilustracao6 from "../img/sobre/ilustracao6.jpg";
 
 import styles from "../css/sobre.module.css";
 
-const Sobre = () => {
-  document.title = "Denis Rodrigues - Sobre";
+document.title = "Denis Rodrigues - Sobre";
 
+const Sobre = () => {
   return (
     <section
       className={`${styles.sobre} container justify-content-center align-items-center fs-5 mt-5`}
@@ -23,7 +23,7 @@ const Sobre = () => {
             mobile com habilidades em HTML, CSS, Javascript, React.js, React
             Native, Bootstrap 5 e muito mais. Atualmente estou cursando o último
             ano da faculdade de Análise e Desenvolvimento de Sistemas, além de
-            estagiar em uma empresa de tecnologia, o que me proporcionou
+            ter estagiado em uma empresa de tecnologia, o que me proporcionou
             experiência prática na área.
           </p>
         </div>
@@ -52,7 +52,6 @@ const Sobre = () => {
             objetivo criar interfaces de alta qualidade e experiências
             intuitivas para os usuários. Busco sempre me manter atualizado sobre
             as tendências e novidades do mercado, e estou constantemente
-            
             aprimorando minhas habilidades através da aprendizagem contínua e do
             trabalho em equipe.
           </p>
@@ -63,10 +62,10 @@ const Sobre = () => {
         <div className="col-12 col-md-6">
           <p>
             Minhas habilidades em resolução de problemas, comunicação e
-            colaboração em equipe me permitem trabalhar em projetos complexos e
-            em ambientes acelerados. Acredito na importância da colaboração e do
-            compartilhamento de ideias com outros desenvolvedores e colegas de
-            trabalho, para que possamos alcançar os melhores resultados.
+            colaboração em equipe me permitem trabalhar em projetos complexos.
+            Acredito na importância da colaboração e do compartilhamento de
+            ideias com outros desenvolvedores e colegas de trabalho, para que
+            possamos alcançar os melhores resultados.
           </p>
         </div>
         <div className="col-12 col-md-6">
@@ -90,12 +89,11 @@ const Sobre = () => {
         <div className="col-12 col-md-6 order-0 order-md-1">
           <div className="row "></div>
           <p>
-            Como desenvolvedor front-end, estou comprometido em criar
-            interfaces web e móveis de alta qualidade que sejam intuitivas,
-            funcionais e agradáveis aos usuários. Além disso, tenho sólidas
-            habilidades em resolução de problemas e colaboração em equipe,
-            juntamente com a capacidade de trabalhar em projetos complexos e em
-            ambientes acelerados.
+            Como desenvolvedor, meu compromisso é criar interfaces web e mobile
+            de alta qualidade que sejam intuitivas, funcionais e agradáveis aos
+            usuários. Além disso, possuo habilidades sólidas em resolução de
+            problemas e colaboração em equipe, bem como a capacidade de
+            trabalhar em projetos complexos e em ambientes acelerados.
           </p>
         </div>
       </div>
@@ -129,10 +127,9 @@ const Sobre = () => {
         </div>
         <div className="col-12 col-md-6 order-0 order-md-1">
           <p>
-            Se você está procurando um desenvolvedor front-end
-            apaixonado e altamente motivado para trabalhar em sua equipe,
-            entre em contato comigo. Será um prazer conversar com você sobre
-            como posso ajudar a impulsionar seus projetos.
+            Se você está procurando um desenvolvedor front-end apaixonado e
+            altamente motivado para trabalhar em sua equipe, entre em contato
+            comigo. Será um prazer conversar com você.
           </p>
         </div>
       </div>

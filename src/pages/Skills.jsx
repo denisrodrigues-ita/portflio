@@ -349,13 +349,19 @@ const Skills = () => {
                           <div className="d-flex align-items-baseline justify-content-between my-3">
                             <p>Eventos</p>
                             <div style={{ width: 80, height: 80 }}>
-                              <CircularProgressBar value={92} />
+                              <CircularProgressBar value={96} />
                             </div>
                           </div>
                           <div className="d-flex align-items-baseline justify-content-between my-3">
                             <p>Funções</p>
                             <div style={{ width: 80, height: 80 }}>
                               <CircularProgressBar value={96} />
+                            </div>
+                          </div>
+                          <div className="d-flex align-items-baseline justify-content-between my-3">
+                            <p>Hooks</p>
+                            <div style={{ width: 80, height: 80 }}>
+                              <CircularProgressBar value={98} />
                             </div>
                           </div>
                         </div>

@@ -2,9 +2,9 @@ import React, { useEffect, useRef } from "react";
 import "animate.css";
 import styles from "../css/home.module.css";
 
-const Home = () => {
-  document.title = "Denis Rodrigues - Home";
+document.title = "Denis Rodrigues - Home";
 
+const Home = () => {
   const titleRef = useRef(null);
   const p1Ref = useRef(null);
   const p2Ref = useRef(null);
@@ -77,7 +77,7 @@ const Home = () => {
         Bootstrap 5 e muito mais.
       </p>
       <p ref={p3Ref} className="animate__animated animate__backInLeft">
-        Formado em Análise e desenvolvimento de Sistemas.
+        Análise e desenvolvimento de Sistemas.
       </p>
     </section>
   );
