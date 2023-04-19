@@ -1,10 +1,15 @@
 import React, { useEffect, useRef } from "react";
 import "animate.css";
 import styles from "../css/home.module.css";
+import ReactGA from "react-ga4";
 
 document.title = "Denis Rodrigues - Home";
 
 const Home = () => {
+  useEffect(() => {
+    ReactGA.send({ hitType: "pageview", page: window.location.pathname });
+  }, []);
+
   const titleRef = useRef(null);
   const p1Ref = useRef(null);
   const p2Ref = useRef(null);

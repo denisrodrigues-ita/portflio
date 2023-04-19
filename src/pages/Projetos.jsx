@@ -6,10 +6,15 @@ import Projetofinal from "../img/projetos/Projetofinal.png";
 import Projetojavascript from "../img/projetos/ProjetoJavascript.png";
 import ProjetoReact from "../img/projetos/ProjetoReact.png";
 import { FaGithub } from "react-icons/fa";
+import ReactGA from "react-ga4";
 
 document.title = "Denis Rodrigues - Portfolio";
 
 const Projetos = () => {
+  useEffect(() => {
+    ReactGA.send({ hitType: "pageview", page: window.location.pathname });
+  }, []);
+
   React.useEffect(() => {
     const tooltipTriggerList = document.querySelectorAll(
       '[data-bs-toggle="tooltip"]'

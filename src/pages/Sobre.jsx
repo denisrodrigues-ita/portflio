@@ -5,12 +5,16 @@ import ilustracao3 from "../img/sobre/ilustracao3.jpg";
 import ilustracao4 from "../img/sobre/ilustracao4.jpg";
 import ilustracao5 from "../img/sobre/ilustracao5.jpg";
 import ilustracao6 from "../img/sobre/ilustracao6.jpg";
+import ReactGA from "react-ga4";
 
 import styles from "../css/sobre.module.css";
 
 document.title = "Denis Rodrigues - Sobre";
 
 const Sobre = () => {
+  useEffect(() => {
+    ReactGA.send({ hitType: "pageview", page: window.location.pathname });
+  }, []);
   return (
     <section
       className={`${styles.sobre} container justify-content-center align-items-center fs-5 mt-5`}

@@ -6,17 +6,21 @@ import Home from "./pages/Home";
 import Sobre from "./pages/Sobre";
 import Projetos from "./pages/Projetos";
 import Skills from "./pages/Skills";
+import ReactGA from "react-ga4";
 
 const App = () => {
+  ReactGA.initialize("your GA measurement id");
+  ReactGA.send({ hitType: "pageview", page: window.location.pathname });
+
   return (
     <BrowserRouter>
       <Header />
       <main>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="sobre" element={<Sobre />} />
-          <Route path="projetos" element={<Projetos />} />
-          <Route path="skills" element={<Skills />} />
+          <Route path="/sobre" element={<Sobre />} />
+          <Route path="/projetos" element={<Projetos />} />
+          <Route path="/skills" element={<Skills />} />
         </Routes>
       </main>
       <Footer />
