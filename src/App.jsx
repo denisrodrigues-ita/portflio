@@ -9,7 +9,7 @@ import Skills from "./pages/Skills";
 import ReactGA from "react-ga4";
 
 const App = () => {
-  ReactGA.initialize("your GA measurement id");
+  ReactGA.initialize("G-4J2QGMC703");
   ReactGA.send({ hitType: "pageview", page: window.location.pathname });
 
   return (
