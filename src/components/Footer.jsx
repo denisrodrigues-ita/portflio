@@ -35,7 +35,7 @@ const Footer = () => {
       <Link
         className={`${styles.footerLink}`}
         target="_blank"
-        to="https://www.instagram.com/denisrodrigues_ita/"
+        to="https://www.instagram.com/denisrodrigues.ita/"
       >
         <AiOutlineInstagram size={50} />
       </Link>
