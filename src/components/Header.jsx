@@ -52,23 +52,23 @@ const Header = () => {
               </li>
 
               <div className={`${styles.socialMidias} d-flex`}>
-                <Link href="https://wa.me/+5535984484087" target="_blank">
+                <Link to="https://wa.me/+5535984484087" target="_blank">
                   <AiOutlineWhatsApp />
                 </Link>
                 <Link
-                  href="https://www.linkedin.com/in/denisrodrigues-ita/"
+                  to="https://www.linkedin.com/in/denisrodrigues-ita/"
                   target="_blank"
                 >
                   <AiOutlineLinkedin />
                 </Link>
                 <Link
-                  href="https://github.com/denisrodrigues-ita"
+                  to="https://github.com/denisrodrigues-ita"
                   target="_blank"
                 >
                   <AiOutlineGithub />
                 </Link>
                 <Link
-                  href="https://www.instagram.com/denisrodrigues.ita/"
+                  to="https://www.instagram.com/denisrodrigues.ita/"
                   target="_blank"
                 >
                   <AiOutlineInstagram />
