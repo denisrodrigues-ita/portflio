@@ -7,6 +7,7 @@ import Projetojavascript from "../img/projetos/ProjetoJavascript.png";
 import ProjetoReact from "../img/projetos/ProjetoReact.png";
 import { FaGithub } from "react-icons/fa";
 import ReactGA from "react-ga4";
+import styles from "../css/projetos.module.css";
 
 document.title = "Denis Rodrigues - Portfolio";
 
@@ -32,7 +33,7 @@ const Projetos = () => {
           <div className="card">
             <div className="row g-0">
               <div
-                className="col-md-4"
+                className={`${styles.projetos} col-md-4`}
                 style={{ overflow: "auto", height: "20rem" }}
               >
                 <img
@@ -96,7 +97,7 @@ const Projetos = () => {
           <div className="card">
             <div className="row g-0">
               <div
-                className="col-md-4"
+                className={`${styles.projetos} col-md-4`}
                 style={{ overflow: "auto", maxHeight: "20rem" }}
               >
                 <img
@@ -160,7 +161,7 @@ const Projetos = () => {
           <div className="card">
             <div className="row g-0">
               <div
-                className="col-md-4"
+                className={`${styles.projetos} col-md-4`}
                 style={{ overflow: "auto", height: "20rem" }}
               >
                 <img
@@ -225,7 +226,7 @@ const Projetos = () => {
           <div className="card">
             <div className="row g-0">
               <div
-                className="col-md-4"
+                className={`${styles.projetos} col-md-4`}
                 style={{ overflow: "auto", height: "20rem" }}
               >
                 <img
@@ -294,7 +295,7 @@ const Projetos = () => {
           <div className="card">
             <div className="row g-0">
               <div
-                className="col-md-4"
+                className={`${styles.projetos} col-md-4`}
                 style={{ overflow: "auto", height: "20rem" }}
               >
                 <img

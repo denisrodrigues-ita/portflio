@@ -56,8 +56,8 @@ const Sobre = () => {
             objetivo criar interfaces de alta qualidade e experiências
             intuitivas para os usuários. Busco sempre me manter atualizado sobre
             as tendências e novidades do mercado, e estou constantemente
-            aprimorando minhas habilidades através da aprendizagem contínua e do
-            trabalho em equipe.
+            aprimorando minhas habilidades através da aprendizagem e troca de
+            experiências com profissionais do mercado.
           </p>
         </div>
       </div>
@@ -66,10 +66,10 @@ const Sobre = () => {
         <div className="col-12 col-md-6">
           <p>
             Minhas habilidades em resolução de problemas, comunicação e
-            colaboração em equipe me permitem trabalhar em projetos complexos.
-            Acredito na importância da colaboração e do compartilhamento de
-            ideias com outros desenvolvedores e colegas de trabalho, para que
-            possamos alcançar os melhores resultados.
+            colaboração em equipe me permitem trabalhar em projetos complexos e
+            ambientes acelerador. Acredito na importância da colaboração e do
+            compartilhamento de ideias com outros desenvolvedores e colegas de
+            trabalho, para que possamos alcançar os melhores resultados.
           </p>
         </div>
         <div className="col-12 col-md-6">
@@ -96,8 +96,7 @@ const Sobre = () => {
             Como desenvolvedor, meu compromisso é criar interfaces web e mobile
             de alta qualidade que sejam intuitivas, funcionais e agradáveis aos
             usuários. Além disso, possuo habilidades sólidas em resolução de
-            problemas e colaboração em equipe, bem como a capacidade de
-            trabalhar em projetos complexos e em ambientes acelerados.
+            problemas e colaboração em equipe.
           </p>
         </div>
       </div>
