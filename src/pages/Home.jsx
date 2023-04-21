@@ -2,6 +2,7 @@ import React from "react";
 import "animate.css";
 import styles from "../css/home.module.css";
 import ReactGA from "react-ga4";
+import imageProfile from "../img/denis.png";
 
 document.title = "Denis Rodrigues - Home";
 
@@ -71,19 +72,38 @@ const Home = () => {
 
   return (
     <section className={`${styles.homeSection} lh-1`}>
-      <h1 ref={titleRef} className="animate__animated animate__backInUp">
-        Denis <br></br>Rodrigues.
-      </h1>
-      <p ref={p1Ref} className="animate__animated animate__backInRight mt-3">
-        Desenvolvedor Front-end e Mobile.
-      </p>
-      <p ref={p2Ref} className="animate__animated animate__backInDown">
-        Conhecimentos em HTML, CSS, Javascript, React.js, React Native,
-        Bootstrap 5 e muito mais.
-      </p>
-      <p ref={p3Ref} className="animate__animated animate__backInLeft">
-        Análise e desenvolvimento de Sistemas.
-      </p>
+      <div className="row d-flex justify-content-start align-items-center">
+        <div className="col-12 col-md-6">
+          <h1
+            ref={titleRef}
+            className="animate__animated animate__backInUp text-start"
+          >
+            Denis <br></br>Rodrigues.
+          </h1>
+          <p
+            ref={p1Ref}
+            className="animate__animated animate__backInRight mt-3 text-start"
+          >
+            Desenvolvedor Front-end e Mobile.
+          </p>
+          <p
+            ref={p2Ref}
+            className="animate__animated animate__backInDown text-start"
+          >
+            Conhecimentos em HTML, CSS, Javascript, React.js, React Native,
+            Bootstrap 5 e muito mais.
+          </p>
+          <p
+            ref={p3Ref}
+            className="animate__animated animate__backInLeft text-start"
+          >
+            Análise e desenvolvimento de Sistemas.
+          </p>
+        </div>
+        <div className="col-12 col-md-6">
+          <img src={imageProfile} alt="Denis Rodrigues" className="img-fluid" />
+        </div>
+      </div>
     </section>
   );
 };
