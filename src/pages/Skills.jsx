@@ -20,9 +20,7 @@ const Skills = () => {
 
   return (
     <>
-      <section
-        className={`${styles.skills} container mt-5`}
-      >
+      <section className={`${styles.skills} container mt-5`}>
         <h1>Skills.</h1>
         <div className="row row-cols-2 row-cols-md-3 g-2">
           <div className="col">

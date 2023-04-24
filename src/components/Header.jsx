@@ -5,6 +5,10 @@ import {
   AiOutlineInstagram,
   AiOutlineLinkedin,
   AiOutlineGithub,
+  AiFillHome,
+  AiFillInfoCircle,
+  AiFillRocket,
+  AiFillProject,
 } from "react-icons/ai";
 import styles from "../css/header.module.css";
 
@@ -31,23 +35,27 @@ const Header = () => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
               <li className="nav-item">
-                <NavLink className="nav-link" to="/">
-                  Home
+                <NavLink className="nav-link d-flex" to="/">
+                  <AiFillHome className="my-auto me-3" />
+                  <span>Home</span>
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" to="sobre">
-                  Sobre
+                <NavLink className="nav-link d-flex" to="sobre">
+                  <AiFillInfoCircle className="my-auto me-3" />
+                  <span>Sobre</span>
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" to="skills">
-                  Skills
+                <NavLink className="nav-link d-flex" to="skills">
+                  <AiFillRocket className="my-auto me-3" />
+                  <span>Skills</span>
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" to="projetos">
-                  Projetos
+                <NavLink className="nav-link d-flex" to="projetos">
+                  <AiFillProject className="my-auto me-3" />
+                  <span>Projetos</span>
                 </NavLink>
               </li>
 

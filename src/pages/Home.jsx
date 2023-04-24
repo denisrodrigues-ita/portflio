@@ -71,7 +71,7 @@ const Home = () => {
   }, []);
 
   return (
-    <section className={`${styles.homeSection} lh-1`}>
+    <section className={`${styles.homeSection} container lh-1`}>
       <div className="row d-flex justify-content-start align-items-center">
         <div className="col-12 col-md-6">
           <h1
