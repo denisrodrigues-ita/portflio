@@ -9,9 +9,8 @@ import { FaGithub } from "react-icons/fa";
 import ReactGA from "react-ga4";
 import styles from "../css/projetos.module.css";
 
-document.title = "Denis Rodrigues - Portfolio";
-
 const Projetos = () => {
+  document.title = "Denis Rodrigues - Portfolio";
   React.useEffect(() => {
     ReactGA.send({ hitType: "pageview", page: window.location.pathname });
   }, []);

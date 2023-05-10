@@ -11,9 +11,8 @@ import CircularProgressBar from "../components/CircularProgressBar";
 import styles from "../css/skills.module.css";
 import ReactGA from "react-ga4";
 
-document.title = "Denis Rodrigues - Skills";
-
 const Skills = () => {
+  document.title = "Denis Rodrigues - Skills";
   React.useEffect(() => {
     ReactGA.send({ hitType: "pageview", page: window.location.pathname });
   }, []);

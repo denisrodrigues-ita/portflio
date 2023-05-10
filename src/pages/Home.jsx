@@ -4,9 +4,8 @@ import styles from "../css/home.module.css";
 import ReactGA from "react-ga4";
 import imageProfile from "../img/denis.png";
 
-document.title = "Denis Rodrigues - Home";
-
 const Home = () => {
+  document.title = "Denis Rodrigues - Home";
   React.useEffect(() => {
     ReactGA.send({ hitType: "pageview", page: window.location.pathname });
   }, []);
@@ -104,7 +103,6 @@ const Home = () => {
           <img src={imageProfile} alt="Denis Rodrigues" className="img-fluid" />
         </div>
       </div>
-      
     </section>
   );
 };

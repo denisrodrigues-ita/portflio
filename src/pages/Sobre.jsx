@@ -6,12 +6,10 @@ import ilustracao4 from "../img/sobre/ilustracao4.jpg";
 import ilustracao5 from "../img/sobre/ilustracao5.jpg";
 import ilustracao6 from "../img/sobre/ilustracao6.jpg";
 import ReactGA from "react-ga4";
-
 import styles from "../css/sobre.module.css";
 
-document.title = "Denis Rodrigues - Sobre";
-
 const Sobre = () => {
+  document.title = "Denis Rodrigues - Sobre";
   React.useEffect(() => {
     ReactGA.send({ hitType: "pageview", page: window.location.pathname });
   }, []);
@@ -20,7 +18,7 @@ const Sobre = () => {
       className={`${styles.sobre} container justify-content-center align-items-center fs-5 mt-5`}
     >
       <h1>Sobre.</h1>
-      <div className="row my-5 align-items-center">
+      <div className="row mb-5 align-items-center">
         <div className="col-12 col-md-6">
           <p>
             Olá, meu nome é Denis Rodrigues, sou um desenvolvedor front-end e
