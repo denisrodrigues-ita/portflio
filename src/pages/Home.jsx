@@ -104,6 +104,7 @@ const Home = () => {
           <img src={imageProfile} alt="Denis Rodrigues" className="img-fluid" />
         </div>
       </div>
+      
     </section>
   );
 };
