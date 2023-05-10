@@ -6,9 +6,11 @@
   "scripts": {
     "dev": "vite --host",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "svgr": "npx @svgr/cli --icon --replace-attr-values '#000=currentColor' src/assets/ --out-dir src/components/SvgIcon/icons"
   },
   "dependencies": {
+    "@svgr/core": "^8.0.0",
     "animate.css": "^4.1.1",
     "react": "^18.2.0",
     "react-circular-progressbar": "^2.1.0",

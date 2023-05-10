@@ -10,7 +10,7 @@ import {
   AiFillRocket,
   AiFillProject,
 } from "react-icons/ai";
-
+import Brand from "../components/SvgIcon/icons/Ddev";
 import styles from "../css/header.module.css";
 
 const Header = () => {
@@ -21,7 +21,11 @@ const Header = () => {
         data-bs-theme="dark"
       >
         <div className="container-fluid">
-          <div></div>
+          <div>
+            <a href="/">
+              <Brand className={styles.brand} />
+            </a>
+          </div>
           <button
             className="navbar-toggler ms-auto"
             type="button"

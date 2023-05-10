@@ -8,7 +8,7 @@
   transition: all 0.3s ease;
 }
 
-.headerCustom a:hover {
+.headerCustom ul li a:hover {
   border-bottom: 1px solid var(--bs-nav-link-color);
   border-top: 1px solid var(--bs-nav-link-color);
 }
@@ -46,3 +46,11 @@
   }
 }
 
+.brand {
+  width: 10rem;
+}
+
+.brand path {
+  fill: #6c757d;
+  stroke: #6c757d;
+}
