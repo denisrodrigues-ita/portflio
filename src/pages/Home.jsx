@@ -1,103 +1,32 @@
 import React from "react";
-import "animate.css";
 import styles from "../css/home.module.css";
 import ReactGA from "react-ga4";
 import imageProfile from "../img/denis.png";
+import TypeWriter from "../components/TypeWriter";
 
 const Home = () => {
+  const texto1 = "Desenvolvedor Front-end e Mobile.";
+  const texto2 =
+    "Conhecimentos em HTML, CSS, Javascript, React.js, React Native, Bootstrap 5 e muito mais.";
+  const texto3 = "Análise e desenvolvimento de Sistemas.";
+
   document.title = "Denis Rodrigues - Home";
   React.useEffect(() => {
     ReactGA.send({ hitType: "pageview", page: window.location.pathname });
   }, []);
 
-  const titleRef = React.useRef(null);
-  const p1Ref = React.useRef(null);
-  const p2Ref = React.useRef(null);
-  const p3Ref = React.useRef(null);
-
-  React.useEffect(() => {
-    const titleEl = titleRef.current;
-    const p1El = p1Ref.current;
-    const p2El = p2Ref.current;
-    const p3El = p3Ref.current;
-
-    const animateTitle = () => {
-      titleEl.classList.add(
-        "animate__bounce",
-        "animate__infinite",
-        "animate__slow"
-      );
-      titleEl.classList.remove("animate__backInUp");
-      setTimeout(() => {
-        titleEl.classList.remove("animate__bounce");
-      }, 2000);
-    };
-
-    const animateP1 = () => {
-      p1El.classList.remove("animate__backInRight");
-      p1El.classList.add("animate__rubberBand");
-      setTimeout(() => {
-        p1El.classList.remove("animate__rubberBand");
-      }, 5000);
-    };
-
-    const animateP2 = () => {
-      p2El.classList.remove("animate__backInDown");
-      p2El.classList.add("animate__tada");
-      setTimeout(() => {
-        p2El.classList.remove("animate__tada");
-      }, 7000);
-    };
-
-    const animateP3 = () => {
-      p3El.classList.remove("animate__backInLeft");
-      p3El.classList.add("animate__swing");
-      setTimeout(() => {
-        p3El.classList.remove("animate__swing");
-      }, 8000);
-    };
-
-    animateTitle();
-    setTimeout(() => {
-      animateP1();
-      setTimeout(() => {
-        animateP2();
-        setTimeout(() => {
-          animateP3();
-        }, 3000);
-      }, 2000);
-    }, 4000);
-  }, []);
-
   return (
     <section className={`${styles.homeSection} container lh-1`}>
-      <div className="row d-flex justify-content-start align-items-center">
+      <div className="row d-flex justify-content-start align-items-center w-100">
         <div className="col-12 col-md-6">
-          <h1
-            ref={titleRef}
-            className="animate__animated animate__backInUp text-start"
-          >
+          <h1 className="text-start">
             Denis <br></br>Rodrigues.
           </h1>
-          <p
-            ref={p1Ref}
-            className="animate__animated animate__backInRight mt-3 text-start"
-          >
-            Desenvolvedor Front-end e Mobile.
+          <p className="mt-3 text-start">
+            {<TypeWriter text={texto1} time={60} />}
           </p>
-          <p
-            ref={p2Ref}
-            className="animate__animated animate__backInDown text-start"
-          >
-            Conhecimentos em HTML, CSS, Javascript, React.js, React Native,
-            Bootstrap 5 e muito mais.
-          </p>
-          <p
-            ref={p3Ref}
-            className="animate__animated animate__backInLeft text-start"
-          >
-            Análise e desenvolvimento de Sistemas.
-          </p>
+          <p className="text-start">{<TypeWriter text={texto2} time={25} />}</p>
+          <p className="text-start">{<TypeWriter text={texto3} time={50} />}</p>
         </div>
         <div className={`${styles.avatar} col-12 col-md-6 mt-5`}>
           <img src={imageProfile} alt="Denis Rodrigues" className="img-fluid" />
