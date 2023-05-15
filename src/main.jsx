@@ -6,8 +6,7 @@ import App from "./App";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <Analytics>
       <App />
-    </Analytics>
+    <Analytics />
   </React.StrictMode>
 );
