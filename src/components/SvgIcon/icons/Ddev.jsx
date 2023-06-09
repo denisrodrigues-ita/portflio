@@ -1,4 +1,3 @@
-import * as React from "react";
 const SvgDdev = (props) => (
   <svg width="3rem" height="3rem" viewBox="0 0 370 116.628" {...props}>
     <defs>
