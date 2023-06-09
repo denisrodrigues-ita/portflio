@@ -6,7 +6,7 @@ import {
   FaCss3,
   FaGithub,
 } from "react-icons/fa";
-import { TbBrandJavascript } from "react-icons/tb";
+import { TbBrandJavascript, TbBrandTailwind } from "react-icons/tb";
 import CircularProgressBar from "../components/CircularProgressBar";
 import styles from "../css/skills.module.css";
 import ReactGA from "react-ga4";
@@ -567,7 +567,7 @@ const Skills = () => {
                           className="btn btn-secondary"
                           data-bs-dismiss="modal"
                         >
-                          Close
+                          Fechar
                         </button>
                       </div>
                     </div>
@@ -657,7 +657,97 @@ const Skills = () => {
                           className="btn btn-secondary"
                           data-bs-dismiss="modal"
                         >
-                          Close
+                          Fechar
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="col">
+            <div className="card h-100 text-dark bg-light border-secundary">
+              <TbBrandTailwind size={100} />
+              <div className="card-body">
+                <h5 className="card-title">Tailwind</h5>
+                <p className="card-text">
+                  Tailwind é um framework de CSS de última geração projetado
+                  para facilitar o desenvolvimento de interfaces de usuário
+                  responsivas e escaláveis.
+                </p>
+                {/* <!-- Button trigger modal --> */}
+                <button
+                  type="button"
+                  className="btn btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#tailwind"
+                >
+                  Ver Mais
+                </button>
+
+                {/* <!-- Modal --> */}
+                <div
+                  className="modal fade"
+                  id="tailwind"
+                  tabIndex="-1"
+                  aria-labelledby="tailwindLabel"
+                  aria-hidden="true"
+                >
+                  <div className="modal-dialog">
+                    <div className="modal-content">
+                      <div className="modal-header">
+                        <h1 className="modal-title fs-5" id="tailwindLabel">
+                          <TbBrandTailwind size={50} /> Tailwind
+                        </h1>
+                        <button
+                          type="button"
+                          className="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                      <div className="modal-body">
+                        <p className="my-3 mx-auto">
+                          Tailwind é um framework de CSS de última geração
+                          projetado para facilitar o desenvolvimento de
+                          interfaces de usuário responsivas e escaláveis. Ele
+                          difere dos frameworks tradicionais de CSS, como
+                          Bootstrap ou Foundation, ao adotar uma abordagem
+                          utility-first (utilidade em primeiro lugar), o que
+                          significa que você constrói seu design combinando
+                          pequenas classes de utilidade em vez de escrever CSS
+                          personalizado.
+                        </p>
+                        <div>
+                          <div className="d-flex align-items-baseline justify-content-between my-3">
+                            <p>Utility-First</p>
+                            <div style={{ width: 80, height: 80 }}>
+                              <CircularProgressBar value={96} />
+                            </div>
+                          </div>
+                          <div className="d-flex align-items-baseline justify-content-between my-3">
+                            <p>Classes Utilitárias</p>
+                            <div style={{ width: 80, height: 80 }}>
+                              <CircularProgressBar value={94} />
+                            </div>
+                          </div>
+                          <div className="d-flex align-items-baseline justify-content-between my-3">
+                            <p>Customização Flexível</p>
+                            <div style={{ width: 80, height: 80 }}>
+                              <CircularProgressBar value={96} />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="modal-footer">
+                        <button
+                          type="button"
+                          className="btn btn-secondary"
+                          data-bs-dismiss="modal"
+                        >
+                          Fechar
                         </button>
                       </div>
                     </div>
