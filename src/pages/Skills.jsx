@@ -6,7 +6,11 @@ import {
   FaCss3,
   FaGithub,
 } from "react-icons/fa";
-import { TbBrandJavascript, TbBrandTailwind } from "react-icons/tb";
+import {
+  TbBrandJavascript,
+  TbBrandTailwind,
+  TbBrandTypescript,
+} from "react-icons/tb";
 import CircularProgressBar from "../components/CircularProgressBar";
 import styles from "../css/skills.module.css";
 import ReactGA from "react-ga4";
@@ -202,6 +206,7 @@ const Skills = () => {
               </div>
             </div>
           </div>
+
           <div className="col">
             <div className="card h-100 text-dark bg-light border-secundary">
               <TbBrandJavascript size={100} />
@@ -289,6 +294,97 @@ const Skills = () => {
               </div>
             </div>
           </div>
+
+          <div className="col">
+            <div className="card h-100 text-dark bg-light border-secundary">
+              <TbBrandTypescript size={100} />
+              <div className="card-body">
+                <h5 className="card-title">Typescript</h5>
+                <p className="card-text">
+                  Typescript é uma extensão da linguagem JavaScript, adicionando
+                  recursos de tipagem estática opcional ao JavaScript.
+                </p>
+                {/* <!-- Button trigger modal --> */}
+                <button
+                  type="button"
+                  className="btn btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#ts"
+                >
+                  Ver Mais
+                </button>
+
+                {/* <!-- Modal --> */}
+                <div
+                  className="modal fade"
+                  id="ts"
+                  tabIndex="-1"
+                  aria-labelledby="tsLabel"
+                  aria-hidden="true"
+                >
+                  <div className="modal-dialog">
+                    <div className="modal-content">
+                      <div className="modal-header">
+                        <h1 className="modal-title fs-5" id="tsLabel">
+                          <TbBrandTypescript size={50} /> Typescript
+                        </h1>
+                        <button
+                          type="button"
+                          className="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                      <div className="modal-body">
+                        <p className="my-3 mx-auto">
+                          TypeScript é uma linguagem de programação de código
+                          aberto desenvolvida pela Microsoft. Ela é uma extensão
+                          da linguagem JavaScript, adicionando recursos de
+                          tipagem estática opcional ao JavaScript. Em outras
+                          palavras, o TypeScript permite que você escreva
+                          JavaScript com a adição de tipos estáticos. Uma das
+                          principais vantagens do TypeScript é fornecer mais
+                          segurança e confiabilidade ao desenvolvimento de
+                          software, detectando erros comuns em tempo de
+                          compilação.
+                        </p>
+                        <div>
+                          <div className="d-flex align-items-baseline justify-content-between my-3">
+                            <p>Interfaces</p>
+                            <div style={{ width: 80, height: 80 }}>
+                              <CircularProgressBar value={94} />
+                            </div>
+                          </div>
+                          <div className="d-flex align-items-baseline justify-content-between my-3">
+                            <p>Classes e Herança</p>
+                            <div style={{ width: 80, height: 80 }}>
+                              <CircularProgressBar value={92} />
+                            </div>
+                          </div>
+                          <div className="d-flex align-items-baseline justify-content-between my-3">
+                            <p>Tipos e Anotações de Tipos</p>
+                            <div style={{ width: 80, height: 80 }}>
+                              <CircularProgressBar value={96} />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="modal-footer">
+                        <button
+                          type="button"
+                          className="btn btn-secondary"
+                          data-bs-dismiss="modal"
+                        >
+                          Fechar
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
           <div className="col">
             <div className="card h-100 text-dark bg-light border-secundary">
               <FaReact size={100} />

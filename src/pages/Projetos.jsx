@@ -93,6 +93,7 @@ const Projetos = () => {
             </div>
           </div>
         </div>
+
         <div className="col">
           <div className="card">
             <div className="row g-0">
@@ -157,6 +158,7 @@ const Projetos = () => {
             </div>
           </div>
         </div>
+
         <div className="col">
           <div className="card">
             <div className="row g-0">
