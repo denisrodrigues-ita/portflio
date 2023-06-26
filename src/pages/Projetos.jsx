@@ -362,75 +362,75 @@ const Projetos = () => {
               </div>
             </div>
           </div>
-          <div className="col">
-            <div className="card">
-              <div className="row g-0">
-                <div
-                  className={`${styles.projetos} col-md-4`}
-                  style={{ overflow: "auto", height: "20rem" }}
-                >
-                  <img
-                    src={Dashboard}
-                    className="img-fluid rounded-start"
-                    alt="consumo de api com dashboard"
-                  />
-                </div>
-                <div className="col-md-8">
-                  <div className="card-body">
-                    <h5 className="card-title">
-                      Visualização de Dados com React e Vite: Construindo um
-                      Dashboard Dinâmico com Chart.js e APIs
-                    </h5>
-                    <p className="card-text">
-                      O projeto que desenvolvi foi um dashboard utilizando as
-                      tecnologias React e Vite, juntamente com a biblioteca
-                      Chart.js para visualização de dados. O objetivo principal
-                      foi criar um painel interativo que consumisse uma API e
-                      exibisse os dados em gráficos.
-                    </p>
-                    <p className="card-text">
-                      A biblioteca Chart.js foi utilizada para criar diferentes
-                      tipos de gráficos, como gráficos de barra, linhas e torta.
-                      Foi necessário compreender a documentação e personalizar
-                      as configurações e estilos dos gráficos de acordo com as
-                      necessidades do projeto.
-                    </p>
-                    <p className="card-text">
-                      No geral, o projeto exigiu um bom conhecimento em React e
-                      Vite, além de familiaridade com a biblioteca Chart.js. A
-                      integração de tecnologias diferentes e a comunicação com a
-                      API foram parte fundamental do desenvolvimento, resultando
-                      em um dashboard funcional e visualmente atraente capaz de
-                      exibir dados de forma clara e intuitiva.
-                    </p>
+        </div>
+        <div className="col">
+          <div className="card">
+            <div className="row g-0">
+              <div
+                className={`${styles.projetos} col-md-4`}
+                style={{ overflow: "auto", height: "20rem" }}
+              >
+                <img
+                  src={Dashboard}
+                  className="img-fluid rounded-start"
+                  alt="consumo de api com dashboard"
+                />
+              </div>
+              <div className="col-md-8">
+                <div className="card-body">
+                  <h5 className="card-title">
+                    Visualização de Dados com React e Vite: Construindo um
+                    Dashboard Dinâmico com Chart.js e APIs
+                  </h5>
+                  <p className="card-text">
+                    O projeto que desenvolvi foi um dashboard utilizando as
+                    tecnologias React e Vite, juntamente com a biblioteca
+                    Chart.js para visualização de dados. O objetivo principal
+                    foi criar um painel interativo que consumisse uma API e
+                    exibisse os dados em gráficos.
+                  </p>
+                  <p className="card-text">
+                    A biblioteca Chart.js foi utilizada para criar diferentes
+                    tipos de gráficos, como gráficos de barra, linhas e torta.
+                    Foi necessário compreender a documentação e personalizar as
+                    configurações e estilos dos gráficos de acordo com as
+                    necessidades do projeto.
+                  </p>
+                  <p className="card-text">
+                    No geral, o projeto exigiu um bom conhecimento em React e
+                    Vite, além de familiaridade com a biblioteca Chart.js. A
+                    integração de tecnologias diferentes e a comunicação com a
+                    API foram parte fundamental do desenvolvimento, resultando
+                    em um dashboard funcional e visualmente atraente capaz de
+                    exibir dados de forma clara e intuitiva.
+                  </p>
 
-                    <Link
-                      to="https://dashboard-ddev.vercel.app/"
-                      type="button"
-                      className="btn btn-primary"
-                      target="_blank"
-                    >
-                      Ver Site
-                    </Link>
-                    <Link
-                      to="https://github.com/denisrodrigues-ita/dashboard"
-                      type="button"
-                      target="_blank"
-                      className="text-dark mx-3"
-                      data-bs-toggle="tooltip"
-                      data-bs-placement="top"
-                      data-bs-custom-class="custom-tooltip"
-                      data-bs-title="Ver código no Github"
-                    >
-                      <FaGithub size={30} />
-                    </Link>
-                    <p className="card-text mt-2">
-                      <small className="text-body-secondary">
-                        <strong>Tecnologias: </strong>
-                        HTML, CSS, Javascript, React e biblioteca Chart.js.
-                      </small>
-                    </p>
-                  </div>
+                  <Link
+                    to="https://dashboard-ddev.vercel.app/"
+                    type="button"
+                    className="btn btn-primary"
+                    target="_blank"
+                  >
+                    Ver Site
+                  </Link>
+                  <Link
+                    to="https://github.com/denisrodrigues-ita/dashboard"
+                    type="button"
+                    target="_blank"
+                    className="text-dark mx-3"
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="top"
+                    data-bs-custom-class="custom-tooltip"
+                    data-bs-title="Ver código no Github"
+                  >
+                    <FaGithub size={30} />
+                  </Link>
+                  <p className="card-text mt-2">
+                    <small className="text-body-secondary">
+                      <strong>Tecnologias: </strong>
+                      HTML, CSS, Javascript, React e biblioteca Chart.js.
+                    </small>
+                  </p>
                 </div>
               </div>
             </div>
