@@ -6,6 +6,7 @@ import FlexEGrid from "../img/projetos/FlexEGrid.png";
 import Projetofinal from "../img/projetos/Projetofinal.png";
 import Projetojavascript from "../img/projetos/ProjetoJavascript.png";
 import ProjetoReact from "../img/projetos/ProjetoReact.png";
+import ProjetoClima from "../img/projetos/ProjetoClima.png";
 import { FaGithub } from "react-icons/fa";
 import ReactGA from "react-ga4";
 import styles from "../css/projetos.module.css";
@@ -431,6 +432,85 @@ const Projetos = () => {
                     <small className="text-body-secondary">
                       <strong>Tecnologias: </strong>
                       HTML, CSS, Javascript, React e biblioteca Chart.js.
+                    </small>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="col">
+          <div className="card">
+            <div className="row g-0">
+              <div
+                className={`${styles.projetos} col-md-4`}
+                style={{ overflow: "auto", height: "20rem" }}
+              >
+                <img
+                  src={ProjetoClima}
+                  className="img-fluid rounded-start"
+                  alt="projeto clima"
+                />
+              </div>
+              <div className="col-md-8">
+                <div className="card-body">
+                  <h5 className="card-title">
+                    Consultando o clima com o consumo da API WeatherAPI
+                    utilizando Tailwind, TypeScript e Next.js
+                  </h5>
+                  <p className="card-text">
+                    Este projeto consiste em um aplicativo de previsão do tempo
+                    que consome a API WeatherAPI, desenvolvido utilizando as
+                    tecnologias Tailwind, TypeScript e Next.js.
+                  </p>
+                  <p className="card-text">
+                    Para lidar com a formatação e exibição dos dados da API,
+                    utilizei o TypeScript, uma linguagem de programação tipada
+                    que me permitiu definir tipos de dados mais precisos e
+                    garantir a integridade dos dados em tempo de compilação.
+                  </p>
+                  <p className="card-text">
+                    Além disso, o Next.js foi escolhido como o framework
+                    principal para o projeto, oferecendo uma base sólida para o
+                    desenvolvimento de aplicações React com renderização do lado
+                    do servidor (SSR). Ele possibilitou uma construção eficiente
+                    do aplicativo, fornecendo recursos avançados de roteamento e
+                    gerenciamento de estado.
+                  </p>
+                  <p className="card-text">
+                    Quanto ao aspecto visual, optei pelo Tailwind CSS, uma
+                    estrutura de design utilitária que me permitiu criar uma
+                    interface moderna e estilizada de forma rápida e
+                    consistente. Através do uso de classes pré-definidas e uma
+                    abordagem baseada em componentes, pude personalizar o estilo
+                    do aplicativo de acordo com as necessidades do projeto.
+                  </p>
+
+                  <Link
+                    to="https://projeto-clima.vercel.app/"
+                    type="button"
+                    className="btn btn-primary"
+                    target="_blank"
+                  >
+                    Ver Site
+                  </Link>
+                  <Link
+                    to="https://github.com/denisrodrigues-ita/api-weather"
+                    type="button"
+                    target="_blank"
+                    className="text-dark mx-3"
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="top"
+                    data-bs-custom-class="custom-tooltip"
+                    data-bs-title="Ver código no Github"
+                  >
+                    <FaGithub size={30} />
+                  </Link>
+                  <p className="card-text mt-2">
+                    <small className="text-body-secondary">
+                      <strong>Tecnologias: </strong>
+                      Tailwind, Typescript e Next.
                     </small>
                   </p>
                 </div>
