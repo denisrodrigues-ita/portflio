@@ -38,270 +38,6 @@ const Projetos = () => {
                 style={{ overflow: "auto", height: "20rem" }}
               >
                 <img
-                  src={FlexEGrid}
-                  className="img-fluid rounded-start"
-                  alt="projeto utilizando grid box"
-                />
-              </div>
-              <div className="col-md-8">
-                <div className="card-body">
-                  <h5 className="card-title">
-                    Projeto de Web Design: Melhorando a experiência do usuário
-                  </h5>
-                  <p className="card-text">
-                    Um dos primeiros projetos que desenvolvi de uma página
-                    responsiva durante o curso da Udemy. Utilizando técnicas
-                    avançadas como flexbox e grid layout, consegui criar um
-                    layout estruturado e altamente adaptável para diferentes
-                    tamanhos de tela.
-                  </p>
-                  <p className="card-text">
-                    Ao longo do projeto, enfrentei alguns desafios que exigiram
-                    muita criatividade e solução de problemas. Foi necessário
-                    encontrar maneiras de ajustar o layout em diferentes
-                    tamanhos de tela, garantindo que a experiência do usuário
-                    fosse sempre excelente, independentemente do dispositivo
-                    utilizado.
-                  </p>
-                  <Link
-                    to="https://denisrodrigues-ita.github.io/projeto-responsivo/"
-                    type="button"
-                    className="btn btn-primary"
-                    target="_blank"
-                  >
-                    Ver Site
-                  </Link>
-                  <Link
-                    to="https://github.com/denisrodrigues-ita/flexblog"
-                    type="button"
-                    target="_blank"
-                    className="text-dark mx-3"
-                    data-bs-toggle="tooltip"
-                    data-bs-placement="top"
-                    data-bs-custom-class="custom-tooltip"
-                    data-bs-title="Ver código no Github"
-                  >
-                    <FaGithub size={30} />
-                  </Link>
-                  <p className="card-text mt-2">
-                    <small className="text-body-secondary">
-                      <strong>Tecnologias: </strong>
-                      HTML e CSS.
-                    </small>
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="col">
-          <div className="card">
-            <div className="row g-0">
-              <div
-                className={`${styles.projetos} col-md-4`}
-                style={{ overflow: "auto", maxHeight: "20rem" }}
-              >
-                <img
-                  src={Projetofinal}
-                  className="img-fluid rounded-start"
-                  alt="projeto utilizando grid box"
-                />
-              </div>
-              <div className="col-md-8">
-                <div className="card-body">
-                  <h5 className="card-title">
-                    Projeto Final da Udemy: Criando um Site Responsivo com HTML,
-                    CSS e JavaScript
-                  </h5>
-                  <p className="card-text">
-                    O projeto final do curso da Udemy foi uma oportunidade
-                    incrível para demonstrar meus conhecimentos em HTML, CSS e
-                    JavaScript. O projeto teve como objetivo desenvolver um site
-                    funcional e atraente, que pudesse ser acessado em diferentes
-                    dispositivos e navegadores.
-                  </p>
-
-                  <p className="card-text">
-                    Durante o desenvolvimento do projeto, utilizei minhas
-                    habilidades em diferentes áreas, como a criação de um layout
-                    responsivo com HTML e CSS, a animação de elementos com CSS e
-                    o desenvolvimento de interações avançadas com JavaScript.
-                  </p>
-                  <Link
-                    to="https://projeto-curso-udemy.netlify.app/"
-                    type="button"
-                    className="btn btn-primary"
-                    target="_blank"
-                  >
-                    Ver Site
-                  </Link>
-                  <Link
-                    to="https://github.com/denisrodrigues-ita/ProjetoInfusion"
-                    type="button"
-                    target="_blank"
-                    className="text-dark mx-3"
-                    data-bs-toggle="tooltip"
-                    data-bs-placement="top"
-                    data-bs-custom-class="custom-tooltip"
-                    data-bs-title="Ver código no Github"
-                  >
-                    <FaGithub size={30} />
-                  </Link>
-                  <p className="card-text mt-2">
-                    <small className="text-body-secondary">
-                      <strong>Tecnologias: </strong>
-                      HTML, CSS e javascript.
-                    </small>
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="col">
-          <div className="card">
-            <div className="row g-0">
-              <div
-                className={`${styles.projetos} col-md-4`}
-                style={{ overflow: "auto", height: "20rem" }}
-              >
-                <img
-                  src={Projetojavascript}
-                  className="img-fluid rounded-start"
-                  alt="projeto utilizando grid box"
-                />
-              </div>
-              <div className="col-md-8">
-                <div className="card-body">
-                  <h5 className="card-title">
-                    Explorando Manipulação do DOM e Requisições via Fetch API em
-                    Meu Projeto Final do Curso Origamid
-                  </h5>
-                  <p className="card-text">
-                    Durante o curso Origamid, tive a oportunidade de desenvolver
-                    um projeto de página utilizando HTML, CSS e JavaScript. O
-                    objetivo do projeto foi criar uma página web interativa e
-                    dinâmica que pudesse ser facilmente manipulada pelo usuário.
-                  </p>
-
-                  <p className="card-text">
-                    Para atingir esse objetivo, utilizei minhas habilidades em
-                    manipulação do DOM e requisições via Fetch API. A
-                    manipulação do DOM foi fundamental para a criação de
-                    interações personalizadas na página, enquanto as requisições
-                    via Fetch API foram utilizadas para carregar e exibir
-                    informações dinâmicas na página.
-                  </p>
-                  <Link
-                    to="https://denisrodrigues-ita.github.io/animais-fantasticos/"
-                    type="button"
-                    className="btn btn-primary"
-                    target="_blank"
-                  >
-                    Ver Site
-                  </Link>
-                  <Link
-                    to="https://github.com/denisrodrigues-ita/animais-fantasticos"
-                    type="button"
-                    target="_blank"
-                    className="text-dark mx-3"
-                    data-bs-toggle="tooltip"
-                    data-bs-placement="top"
-                    data-bs-custom-class="custom-tooltip"
-                    data-bs-title="Ver código no Github"
-                  >
-                    <FaGithub size={30} />
-                  </Link>
-                  <p className="card-text mt-2">
-                    <small className="text-body-secondary">
-                      <strong>Tecnologias: </strong>
-                      HTML, CSS e javascript.
-                    </small>
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="col">
-          <div className="card">
-            <div className="row g-0">
-              <div
-                className={`${styles.projetos} col-md-4`}
-                style={{ overflow: "auto", height: "20rem" }}
-              >
-                <img
-                  src={ProjetoReact}
-                  className="img-fluid rounded-start"
-                  alt="projeto utilizando grid box"
-                />
-              </div>
-              <div className="col-md-8">
-                <div className="card-body">
-                  <h5 className="card-title">
-                    Explorando Técnicas Avançadas de React em Meu Projeto Final
-                    do Curso Origamid: Uma Rede Social para Amantes de Cães
-                  </h5>
-                  <p className="card-text">
-                    Durante o curso Origamid, desenvolvi uma rede social de
-                    cachorros em React, com o objetivo de criar uma plataforma
-                    interativa para amantes de cães. O projeto envolveu o uso de
-                    várias técnicas avançadas de React, incluindo requisições
-                    via Fetch API, hooks, React Router e lazy loading.
-                  </p>
-
-                  <p className="card-text">
-                    O uso de requisições via Fetch API permitiu a obtenção de
-                    dados dinâmicos da API do projeto e a atualização
-                    instantânea da página, enquanto os hooks do React foram
-                    utilizados para gerenciar o estado da aplicação e facilitar
-                    a atualização das informações da página. O uso do React
-                    Router foi fundamental para a navegação entre as diferentes
-                    seções da aplicação, enquanto o lazy loading garantiu a
-                    rápida renderização da página, mesmo com uma grande
-                    quantidade de dados.
-                  </p>
-                  <Link
-                    to="https://dogs-and-cats.netlify.app/"
-                    type="button"
-                    className="btn btn-primary"
-                    target="_blank"
-                  >
-                    Ver Site
-                  </Link>
-                  <Link
-                    to="https://github.com/denisrodrigues-ita/dogs"
-                    type="button"
-                    target="_blank"
-                    className="text-dark mx-3"
-                    data-bs-toggle="tooltip"
-                    data-bs-placement="top"
-                    data-bs-custom-class="custom-tooltip"
-                    data-bs-title="Ver código no Github"
-                  >
-                    <FaGithub size={30} />
-                  </Link>
-                  <p className="card-text mt-2">
-                    <small className="text-body-secondary">
-                      <strong>Tecnologias: </strong>
-                      HTML, CSS, Javascript e React.
-                    </small>
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="col">
-          <div className="card">
-            <div className="row g-0">
-              <div
-                className={`${styles.projetos} col-md-4`}
-                style={{ overflow: "auto", height: "20rem" }}
-              >
-                <img
                   src={ConsumoApi}
                   className="img-fluid rounded-start"
                   alt="projeto utilizando grid box"
@@ -359,79 +95,6 @@ const Projetos = () => {
                     <small className="text-body-secondary">
                       <strong>Tecnologias: </strong>
                       HTML, CSS, Javascript e React.
-                    </small>
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="col">
-          <div className="card">
-            <div className="row g-0">
-              <div
-                className={`${styles.projetos} col-md-4`}
-                style={{ overflow: "auto", height: "20rem" }}
-              >
-                <img
-                  src={Dashboard}
-                  className="img-fluid rounded-start"
-                  alt="consumo de api com dashboard"
-                />
-              </div>
-              <div className="col-md-8">
-                <div className="card-body">
-                  <h5 className="card-title">
-                    Visualização de Dados com React e Vite: Construindo um
-                    Dashboard Dinâmico com Chart.js e APIs
-                  </h5>
-                  <p className="card-text">
-                    O projeto que desenvolvi foi um dashboard utilizando as
-                    tecnologias React e Vite, juntamente com a biblioteca
-                    Chart.js para visualização de dados. O objetivo principal
-                    foi criar um painel interativo que consumisse uma API e
-                    exibisse os dados em gráficos.
-                  </p>
-                  <p className="card-text">
-                    A biblioteca Chart.js foi utilizada para criar diferentes
-                    tipos de gráficos, como gráficos de barra, linhas e torta.
-                    Foi necessário compreender a documentação e personalizar as
-                    configurações e estilos dos gráficos de acordo com as
-                    necessidades do projeto.
-                  </p>
-                  <p className="card-text">
-                    No geral, o projeto exigiu um bom conhecimento em React e
-                    Vite, além de familiaridade com a biblioteca Chart.js. A
-                    integração de tecnologias diferentes e a comunicação com a
-                    API foram parte fundamental do desenvolvimento, resultando
-                    em um dashboard funcional e visualmente atraente capaz de
-                    exibir dados de forma clara e intuitiva.
-                  </p>
-
-                  <Link
-                    to="https://dashboard-ddev.vercel.app/"
-                    type="button"
-                    className="btn btn-primary"
-                    target="_blank"
-                  >
-                    Ver Site
-                  </Link>
-                  <Link
-                    to="https://github.com/denisrodrigues-ita/dashboard"
-                    type="button"
-                    target="_blank"
-                    className="text-dark mx-3"
-                    data-bs-toggle="tooltip"
-                    data-bs-placement="top"
-                    data-bs-custom-class="custom-tooltip"
-                    data-bs-title="Ver código no Github"
-                  >
-                    <FaGithub size={30} />
-                  </Link>
-                  <p className="card-text mt-2">
-                    <small className="text-body-secondary">
-                      <strong>Tecnologias: </strong>
-                      HTML, CSS, Javascript, React e biblioteca Chart.js.
                     </small>
                   </p>
                 </div>
@@ -511,6 +174,216 @@ const Projetos = () => {
                     <small className="text-body-secondary">
                       <strong>Tecnologias: </strong>
                       Tailwind, Typescript e Next.
+                    </small>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="col">
+          <div className="card">
+            <div className="row g-0">
+              <div
+                className={`${styles.projetos} col-md-4`}
+                style={{ overflow: "auto", height: "20rem" }}
+              >
+                <img
+                  src={ProjetoReact}
+                  className="img-fluid rounded-start"
+                  alt="projeto utilizando grid box"
+                />
+              </div>
+              <div className="col-md-8">
+                <div className="card-body">
+                  <h5 className="card-title">
+                    Explorando Técnicas Avançadas de React em Meu Projeto Final
+                    do Curso Origamid: Uma Rede Social para Amantes de Cães
+                  </h5>
+                  <p className="card-text">
+                    Durante o curso Origamid, desenvolvi uma rede social de
+                    cachorros em React, com o objetivo de criar uma plataforma
+                    interativa para amantes de cães. O projeto envolveu o uso de
+                    várias técnicas avançadas de React, incluindo requisições
+                    via Fetch API, hooks, React Router e lazy loading.
+                  </p>
+
+                  <p className="card-text">
+                    O uso de requisições via Fetch API permitiu a obtenção de
+                    dados dinâmicos da API do projeto e a atualização
+                    instantânea da página, enquanto os hooks do React foram
+                    utilizados para gerenciar o estado da aplicação e facilitar
+                    a atualização das informações da página. O uso do React
+                    Router foi fundamental para a navegação entre as diferentes
+                    seções da aplicação, enquanto o lazy loading garantiu a
+                    rápida renderização da página, mesmo com uma grande
+                    quantidade de dados.
+                  </p>
+                  <Link
+                    to="https://dogs-and-cats.netlify.app/"
+                    type="button"
+                    className="btn btn-primary"
+                    target="_blank"
+                  >
+                    Ver Site
+                  </Link>
+                  <Link
+                    to="https://github.com/denisrodrigues-ita/dogs"
+                    type="button"
+                    target="_blank"
+                    className="text-dark mx-3"
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="top"
+                    data-bs-custom-class="custom-tooltip"
+                    data-bs-title="Ver código no Github"
+                  >
+                    <FaGithub size={30} />
+                  </Link>
+                  <p className="card-text mt-2">
+                    <small className="text-body-secondary">
+                      <strong>Tecnologias: </strong>
+                      HTML, CSS, Javascript e React.
+                    </small>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="col">
+          <div className="card">
+            <div className="row g-0">
+              <div
+                className={`${styles.projetos} col-md-4`}
+                style={{ overflow: "auto", height: "20rem" }}
+              >
+                <img
+                  src={Projetojavascript}
+                  className="img-fluid rounded-start"
+                  alt="projeto utilizando grid box"
+                />
+              </div>
+              <div className="col-md-8">
+                <div className="card-body">
+                  <h5 className="card-title">
+                    Explorando Manipulação do DOM e Requisições via Fetch API em
+                    Meu Projeto Final do Curso Origamid
+                  </h5>
+                  <p className="card-text">
+                    Durante o curso Origamid, tive a oportunidade de desenvolver
+                    um projeto de página utilizando HTML, CSS e JavaScript. O
+                    objetivo do projeto foi criar uma página web interativa e
+                    dinâmica que pudesse ser facilmente manipulada pelo usuário.
+                  </p>
+
+                  <p className="card-text">
+                    Para atingir esse objetivo, utilizei minhas habilidades em
+                    manipulação do DOM e requisições via Fetch API. A
+                    manipulação do DOM foi fundamental para a criação de
+                    interações personalizadas na página, enquanto as requisições
+                    via Fetch API foram utilizadas para carregar e exibir
+                    informações dinâmicas na página.
+                  </p>
+                  <Link
+                    to="https://denisrodrigues-ita.github.io/animais-fantasticos/"
+                    type="button"
+                    className="btn btn-primary"
+                    target="_blank"
+                  >
+                    Ver Site
+                  </Link>
+                  <Link
+                    to="https://github.com/denisrodrigues-ita/animais-fantasticos"
+                    type="button"
+                    target="_blank"
+                    className="text-dark mx-3"
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="top"
+                    data-bs-custom-class="custom-tooltip"
+                    data-bs-title="Ver código no Github"
+                  >
+                    <FaGithub size={30} />
+                  </Link>
+                  <p className="card-text mt-2">
+                    <small className="text-body-secondary">
+                      <strong>Tecnologias: </strong>
+                      HTML, CSS e javascript.
+                    </small>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="col">
+          <div className="card">
+            <div className="row g-0">
+              <div
+                className={`${styles.projetos} col-md-4`}
+                style={{ overflow: "auto", height: "20rem" }}
+              >
+                <img
+                  src={Dashboard}
+                  className="img-fluid rounded-start"
+                  alt="consumo de api com dashboard"
+                />
+              </div>
+              <div className="col-md-8">
+                <div className="card-body">
+                  <h5 className="card-title">
+                    Visualização de Dados com React e Vite: Construindo um
+                    Dashboard Dinâmico com Chart.js e APIs
+                  </h5>
+                  <p className="card-text">
+                    O projeto que desenvolvi foi um dashboard utilizando as
+                    tecnologias React e Vite, juntamente com a biblioteca
+                    Chart.js para visualização de dados. O objetivo principal
+                    foi criar um painel interativo que consumisse uma API e
+                    exibisse os dados em gráficos.
+                  </p>
+                  <p className="card-text">
+                    A biblioteca Chart.js foi utilizada para criar diferentes
+                    tipos de gráficos, como gráficos de barra, linhas e torta.
+                    Foi necessário compreender a documentação e personalizar as
+                    configurações e estilos dos gráficos de acordo com as
+                    necessidades do projeto.
+                  </p>
+                  <p className="card-text">
+                    No geral, o projeto exigiu um bom conhecimento em React e
+                    Vite, além de familiaridade com a biblioteca Chart.js. A
+                    integração de tecnologias diferentes e a comunicação com a
+                    API foram parte fundamental do desenvolvimento, resultando
+                    em um dashboard funcional e visualmente atraente capaz de
+                    exibir dados de forma clara e intuitiva.
+                  </p>
+
+                  <Link
+                    to="https://dashboard-ddev.vercel.app/"
+                    type="button"
+                    className="btn btn-primary"
+                    target="_blank"
+                  >
+                    Ver Site
+                  </Link>
+                  <Link
+                    to="https://github.com/denisrodrigues-ita/dashboard"
+                    type="button"
+                    target="_blank"
+                    className="text-dark mx-3"
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="top"
+                    data-bs-custom-class="custom-tooltip"
+                    data-bs-title="Ver código no Github"
+                  >
+                    <FaGithub size={30} />
+                  </Link>
+                  <p className="card-text mt-2">
+                    <small className="text-body-secondary">
+                      <strong>Tecnologias: </strong>
+                      HTML, CSS, Javascript, React e biblioteca Chart.js.
                     </small>
                   </p>
                 </div>
