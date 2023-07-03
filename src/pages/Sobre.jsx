@@ -15,7 +15,10 @@ const Sobre = () => {
       <h1>Sobre.</h1>
 
       {sobreJson.map((item, index) => (
-        <div key={index} className={`${styles.divReverse} row mb-5 align-items-center`}>
+        <div
+          key={index}
+          className={`${styles.divReverse} row mb-5 align-items-center`}
+        >
           <div className="col-12 col-md-6">
             <p>{item.text}</p>
           </div>
