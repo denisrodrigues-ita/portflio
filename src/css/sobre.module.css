@@ -12,3 +12,7 @@
   height: 300px;
   object-fit: cover;
 }
+
+.divReverse:nth-child(odd) {
+  flex-direction: row-reverse;
+}
