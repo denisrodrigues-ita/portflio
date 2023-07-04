@@ -1,0 +1,79 @@
+[
+  {
+    "title": "Explorando as Possibilidades do React: Meu Projeto Pessoal com Requisições via Fetch API, Hooks e React Router",
+    "description": [
+      "Desenvolvi um projeto pessoal de página em React para criar uma experiência de usuário mais dinâmica e interativa. O objetivo do projeto foi explorar as possibilidades do React e criar uma página que fosse funcional.",
+
+      "O projeto envolveu o uso de várias técnicas avançadas de React, incluindo requisições via fetch API, hooks, React Router e components. Através do uso de requisições via fetch API, pude obter dados dinâmicos para a página e fornecer atualizações instantâneas, enquanto o uso de hooks e components facilitou a gestão do estado da aplicação e a construção da interface do usuário.",
+
+      "O React Router foi fundamental para a navegação entre as diferentes páginas da aplicação, enquanto o uso de components permitiu a reutilização de código e a construção de uma interface de usuário mais eficiente e organizada."
+    ],
+    "link": "https://netcine.vercel.app/",
+    "github": "https://github.com/denisrodrigues-ita/moviesproject",
+    "stack": "HTML, CSS, Javascript e React.",
+    "img": "/assets/projetos/ConsumoApi.png",
+    "alt": "print do projeto de consumo de api"
+  },
+
+  {
+    "title": "Consultando o clima com o consumo da API WeatherAPI utilizando Tailwind, TypeScript e Next.js",
+    "description": [
+      "Este projeto consiste em um aplicativo de previsão do tempo que consome a API WeatherAPI, desenvolvido utilizando as tecnologias Tailwind, TypeScript e Next.js.",
+
+      "Para lidar com a formatação e exibição dos dados da API, utilizei o TypeScript, uma linguagem de programação tipada que me permitiu definir tipos de dados mais precisos e garantir a integridade dos dados em tempo de compilação.",
+
+      "Além disso, o Next.js foi escolhido como o framework principal para o projeto, oferecendo uma base sólida para o   desenvolvimento de aplicações React com renderização do lado do servidor (SSR). Ele possibilitou uma construção eficiente do aplicativo, fornecendo recursos avançados de roteamento e gerenciamento de estado.",
+
+      "Quanto ao aspecto visual, optei pelo Tailwind CSS, uma estrutura de design utilitária que me permitiu criar uma    interface moderna e estilizada de forma rápida e consistente. Através do uso de classes pré-definidas e uma    abordagem baseada em componentes, pude personalizar o estilo do aplicativo de acordo com as necessidades do projeto."
+    ],
+    "link": "https://projeto-clima.vercel.app/",
+    "github": "https://github.com/denisrodrigues-ita/api-weather",
+    "stack": "Next, Tailwind e Typescript",
+    "img": "/assets/projetos/ProjetoClima.png",
+    "alt": "print do projeto de previsão do tempo"
+  },
+
+  {
+    "title": "Explorando Técnicas Avançadas de React em Meu Projeto Final do Curso Origamid: Uma Rede Social para Amantes de Cães",
+    "description": [
+      "Durante o curso Origamid, desenvolvi uma rede social de cachorros em React, com o objetivo de criar uma plataforma interativa para amantes de cães. O projeto envolveu o uso de várias técnicas avançadas de React, incluindo equisições via Fetch API, hooks, React Router e lazy loading.",
+
+      "O uso de requisições via Fetch API permitiu a obtenção de dados dinâmicos da API do projeto e a atualização    instantânea da página, enquanto os hooks do React foram utilizados para gerenciar o estado da aplicação e facilitar a atualização das informações da página. O uso do React Router foi fundamental para a navegação entre as diferentes seções da aplicação, enquanto o lazy loading garantiu a rápida renderização da página, mesmo com uma grande quantidade de dados."
+    ],
+    "link": "https://dogs-and-cats.netlify.app/",
+    "github": "https://github.com/denisrodrigues-ita/dogs",
+    "stack": "HTML, CSS, Javascript e React.",
+    "img": "/assets/projetos/ProjetoReact.png",
+    "alt": "print do projeto de rede social de caes"
+  },
+
+  {
+    "title": "Explorando Manipulação do DOM e Requisições via Fetch API em Meu Projeto Final do Curso Origamid",
+    "description": [
+      "Durante o curso Origamid, tive a oportunidade de desenvolver um projeto de página utilizando HTML, CSS e avaScript. O objetivo do projeto foi criar uma página web interativa e dinâmica que pudesse ser facilmente manipulada pelo usuário.",
+
+      "Para atingir esse objetivo, utilizei minhas habilidades em manipulação do DOM e requisições via Fetch API. A manipulação do DOM foi fundamental para a criação de interações personalizadas na página, enquanto as requisições via Fetch API foram utilizadas para carregar e exibir informações dinâmicas na página."
+    ],
+    "link": "https://denisrodrigues-ita.github.io/animais-fantasticos/",
+    "github": "https://github.com/denisrodrigues-ita/animais-fantasticos",
+    "stack": "HTML, CSS e javascript.",
+    "img": "/assets/projetos/ProjetoJavascript.png",
+    "alt": "print do projeto final da origamid em javascript"
+  },
+
+  {
+    "title": "Visualização de Dados com React e Vite: Construindo um Dashboard Dinâmico com Chart.js e APIs",
+    "description": [
+      "O projeto que desenvolvi foi um dashboard utilizando as tecnologias React e Vite, juntamente com a biblioteca Chart.js para visualização de dados. O objetivo principal foi criar um painel interativo que consumisse uma API e exibisse os dados em gráficos.",
+
+      "A biblioteca Chart.js foi utilizada para criar diferentes tipos de gráficos, como gráficos de barra, linhas e torta. Foi necessário compreender a documentação e personalizar as configurações e estilos dos gráficos de acordo com as necessidades do projeto.",
+
+      "No geral, o projeto exigiu um bom conhecimento em React e Vite, além de familiaridade com a biblioteca Chart.js. A integração de tecnologias diferentes e a comunicação com a API foram parte fundamental do desenvolvimento,resultando em um dashboard funcional e visualmente atraente capaz de exibir dados de forma clara e intuitiva."
+    ],
+    "link": "https://dashboard-ddev.vercel.app/",
+    "github": "https://github.com/denisrodrigues-ita/dashboard",
+    "stack": "HTML, CSS, Javascript, React e biblioteca Chart.js.",
+    "img": "/assets/projetos/Dashboard.png",
+    "alt": "print do projeto dashboard"
+  }
+]
