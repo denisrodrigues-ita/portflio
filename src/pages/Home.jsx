@@ -3,6 +3,8 @@ import styles from "../css/home.module.css";
 import ReactGA from "react-ga4";
 import imageProfile from "../img/denis.png";
 import TypeWriter from "../components/TypeWriter";
+import { BsDownload } from "react-icons/bs";
+import cv from "../assets/CV.pdf";
 
 const Home = () => {
   const texto1 = "Desenvolvedor Front-end e Mobile.";
@@ -27,6 +29,17 @@ const Home = () => {
           </p>
           <p className="text-start">{<TypeWriter text={texto2} time={25} />}</p>
           <p className="text-start">{<TypeWriter text={texto3} time={50} />}</p>
+          <div className="d-flex">
+            <a
+              href={cv}
+              target="_blank"
+              rel="noreferrer"
+              download
+              className={`btn btn-primary mt-3`}
+            >
+              Currículo <BsDownload />
+            </a>
+          </div>
         </div>
         <div className={`${styles.avatar} col-12 col-md-6 mt-5`}>
           <img src={imageProfile} alt="Denis Rodrigues" className="img-fluid" />
