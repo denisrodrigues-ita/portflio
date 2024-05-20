@@ -1,5 +1,21 @@
 [
   {
+    "title": "Desenvolvimento de E-commerce com Next.js, Styled-Components, React Query e mais!",
+    "description": [
+      "Recentemente concluí um projeto desafiador que me permitiu aplicar e expandir meus conhecimentos em diversas tecnologias modernas. Desenvolvi uma aplicação de e-commerce simulada utilizando um conjunto poderoso de ferramentas e bibliotecas, incluindo Next.js, Styled-Components, React Query, Axios, Zustand e TypeScript.",
+
+      "Neste projeto, criei uma interface intuitiva e responsiva para os usuários navegarem por produtos, adicioná-los ao carrinho e removê-los conforme necessário. A integração com React Query e Axios garantiu a gestão eficiente de dados e a comunicação com APIs. O Zustand foi utilizado para o gerenciamento de estado de forma simples e eficaz, enquanto o Styled-Components possibilitou a construção de componentes estilizados e reutilizáveis com facilidade.",
+
+      "A escolha do Next.js como framework principal proporcionou um desempenho otimizado e uma excelente experiência de desenvolvimento, permitindo tanto a renderização no lado do servidor quanto a geração estática de páginas."
+    ],
+    "link": "https://mks-challenge-roan.vercel.app/",
+    "github": "https://github.com/denisrodrigues-ita/mks-challenge",
+    "stack": "Next.js, Styled-Components, React Query, Axios, Zustand e TypeScript.",
+    "img": "/assets/projetos/ecommerce.png",
+    "alt": "print do projeto de consumo de api"
+  },
+
+  {
     "title": "Explorando as Possibilidades do React: Meu Projeto Pessoal com Requisições via Fetch API, Hooks e React Router",
     "description": [
       "Desenvolvi um projeto pessoal de página em React para criar uma experiência de usuário mais dinâmica e interativa. O objetivo do projeto foi explorar as possibilidades do React e criar uma página que fosse funcional.",

@@ -5,13 +5,14 @@ import {
   FaHtml5,
   FaCss3,
   FaGithub,
+  FaNode,
 } from "react-icons/fa";
 import {
   TbBrandJavascript,
   TbBrandTailwind,
   TbBrandTypescript,
 } from "react-icons/tb";
-import CircularProgressBar from "../components/CircularProgressBar";
+import { SiChakraui, SiNextdotjs } from "react-icons/si";
 import styles from "../css/skills.module.css";
 import ReactGA from "react-ga4";
 
@@ -24,7 +25,7 @@ const Skills = () => {
   return (
     <>
       <section className={`${styles.skills} container mt-5`}>
-        <h1>Skills.</h1>
+        <h1>Principais Skills.</h1>
         <div className="row row-cols-2 row-cols-md-3 g-2">
           <div className="col">
             <div className="card h-100 text-dark bg-light border-secundary">
@@ -73,26 +74,6 @@ const Skills = () => {
                           permitindo a criação de páginas mais interativas e com
                           recursos multimídia.
                         </p>
-                        <div>
-                          <div className="d-flex align-items-baseline justify-content-between my-3">
-                            <p>Estrutura do documento</p>
-                            <div style={{ width: 80, height: 80 }}>
-                              <CircularProgressBar value={96} />
-                            </div>
-                          </div>
-                          <div className="d-flex align-items-baseline justify-content-between my-3">
-                            <p>tags semânticas</p>
-                            <div style={{ width: 80, height: 80 }}>
-                              <CircularProgressBar value={94} />
-                            </div>
-                          </div>
-                          <div className="d-flex align-items-baseline justify-content-between my-3">
-                            <p>Utilização de elementos de formulário</p>
-                            <div style={{ width: 80, height: 80 }}>
-                              <CircularProgressBar value={94} />
-                            </div>
-                          </div>
-                        </div>
                       </div>
                       <div className="modal-footer">
                         <button
@@ -158,38 +139,6 @@ const Skills = () => {
                           outros, para permitir que os desenvolvedores criem
                           designs mais sofisticados e responsivos.
                         </p>
-                        <div>
-                          <div className="d-flex align-items-baseline justify-content-between my-3">
-                            <p>Seletores avançados</p>
-                            <div style={{ width: 80, height: 80 }}>
-                              <CircularProgressBar value={95} />
-                            </div>
-                          </div>
-                          <div className="d-flex align-items-baseline justify-content-between my-3">
-                            <p>Box model</p>
-                            <div style={{ width: 80, height: 80 }}>
-                              <CircularProgressBar value={95} />
-                            </div>
-                          </div>
-                          <div className="d-flex align-items-baseline justify-content-between my-3">
-                            <p>Flexbox e grid layout</p>
-                            <div style={{ width: 80, height: 80 }}>
-                              <CircularProgressBar value={96} />
-                            </div>
-                          </div>
-                          <div className="d-flex align-items-baseline justify-content-between my-3">
-                            <p>Transições e animações CSS</p>
-                            <div style={{ width: 80, height: 80 }}>
-                              <CircularProgressBar value={89} />
-                            </div>
-                          </div>
-                          <div className="d-flex align-items-baseline justify-content-between my-3">
-                            <p>Media queries</p>
-                            <div style={{ width: 80, height: 80 }}>
-                              <CircularProgressBar value={92} />
-                            </div>
-                          </div>
-                        </div>
                       </div>
                       <div className="modal-footer">
                         <button
@@ -258,26 +207,6 @@ const Skills = () => {
                           funcionalidades. É uma das linguagens de programação
                           mais populares e amplamente utilizadas na web.
                         </p>
-                        <div>
-                          <div className="d-flex align-items-baseline justify-content-between my-3">
-                            <p>Manipulação do DOM</p>
-                            <div style={{ width: 80, height: 80 }}>
-                              <CircularProgressBar value={94} />
-                            </div>
-                          </div>
-                          <div className="d-flex align-items-baseline justify-content-between my-3">
-                            <p>Eventos</p>
-                            <div style={{ width: 80, height: 80 }}>
-                              <CircularProgressBar value={92} />
-                            </div>
-                          </div>
-                          <div className="d-flex align-items-baseline justify-content-between my-3">
-                            <p>Funções</p>
-                            <div style={{ width: 80, height: 80 }}>
-                              <CircularProgressBar value={96} />
-                            </div>
-                          </div>
-                        </div>
                       </div>
                       <div className="modal-footer">
                         <button
@@ -348,26 +277,6 @@ const Skills = () => {
                           software, detectando erros comuns em tempo de
                           compilação.
                         </p>
-                        <div>
-                          <div className="d-flex align-items-baseline justify-content-between my-3">
-                            <p>Interfaces</p>
-                            <div style={{ width: 80, height: 80 }}>
-                              <CircularProgressBar value={94} />
-                            </div>
-                          </div>
-                          <div className="d-flex align-items-baseline justify-content-between my-3">
-                            <p>Classes e Herança</p>
-                            <div style={{ width: 80, height: 80 }}>
-                              <CircularProgressBar value={92} />
-                            </div>
-                          </div>
-                          <div className="d-flex align-items-baseline justify-content-between my-3">
-                            <p>Tipos e Anotações de Tipos</p>
-                            <div style={{ width: 80, height: 80 }}>
-                              <CircularProgressBar value={96} />
-                            </div>
-                          </div>
-                        </div>
                       </div>
                       <div className="modal-footer">
                         <button
@@ -437,32 +346,6 @@ const Skills = () => {
                           React é amplamente utilizado no desenvolvimento de
                           aplicativos web modernos e escaláveis.
                         </p>
-                        <div>
-                          <div className="d-flex align-items-baseline justify-content-between my-3">
-                            <p>Manipulação do DOM</p>
-                            <div style={{ width: 80, height: 80 }}>
-                              <CircularProgressBar value={94} />
-                            </div>
-                          </div>
-                          <div className="d-flex align-items-baseline justify-content-between my-3">
-                            <p>Eventos</p>
-                            <div style={{ width: 80, height: 80 }}>
-                              <CircularProgressBar value={96} />
-                            </div>
-                          </div>
-                          <div className="d-flex align-items-baseline justify-content-between my-3">
-                            <p>Funções</p>
-                            <div style={{ width: 80, height: 80 }}>
-                              <CircularProgressBar value={96} />
-                            </div>
-                          </div>
-                          <div className="d-flex align-items-baseline justify-content-between my-3">
-                            <p>Hooks</p>
-                            <div style={{ width: 80, height: 80 }}>
-                              <CircularProgressBar value={98} />
-                            </div>
-                          </div>
-                        </div>
                       </div>
                       <div className="modal-footer">
                         <button
@@ -534,44 +417,6 @@ const Skills = () => {
                           tradicionais. Isso o torna uma escolha popular para o
                           desenvolvimento de aplicativos móveis híbridos.
                         </p>
-                        <div>
-                          <div className="d-flex align-items-baseline justify-content-between my-3">
-                            <p>Componentes React</p>
-                            <div style={{ width: 80, height: 80 }}>
-                              <CircularProgressBar value={96} />
-                            </div>
-                          </div>
-                          <div className="d-flex align-items-baseline justify-content-between my-3">
-                            <p>Estilos e layout</p>
-                            <div style={{ width: 80, height: 80 }}>
-                              <CircularProgressBar value={96} />
-                            </div>
-                          </div>
-                          <div className="d-flex align-items-baseline justify-content-between my-3">
-                            <p>Componentes nativos</p>
-                            <div style={{ width: 80, height: 80 }}>
-                              <CircularProgressBar value={94} />
-                            </div>
-                          </div>
-                          <div className="d-flex align-items-baseline justify-content-between my-3">
-                            <p>Estado e ciclo de vida dos componentes</p>
-                            <div style={{ width: 80, height: 80 }}>
-                              <CircularProgressBar value={94} />
-                            </div>
-                          </div>
-                          <div className="d-flex align-items-baseline justify-content-between my-3">
-                            <p>Renderização</p>
-                            <div style={{ width: 80, height: 80 }}>
-                              <CircularProgressBar value={96} />
-                            </div>
-                          </div>
-                          <div className="d-flex align-items-baseline justify-content-between my-3">
-                            <p>Uso de bibliotecas</p>
-                            <div style={{ width: 80, height: 80 }}>
-                              <CircularProgressBar value={94} />
-                            </div>
-                          </div>
-                        </div>
                       </div>
                       <div className="modal-footer">
                         <button
@@ -642,20 +487,6 @@ const Skills = () => {
                           contínua, além de facilitar a colaboração em equipe e
                           o compartilhamento de código aberto.
                         </p>
-                        <div>
-                          <div className="d-flex align-items-baseline justify-content-between my-3">
-                            <p>Controle de versão</p>
-                            <div style={{ width: 80, height: 80 }}>
-                              <CircularProgressBar value={80} />
-                            </div>
-                          </div>
-                          <div className="d-flex align-items-baseline justify-content-between my-3">
-                            <p>Gerenciamento de branch e merge</p>
-                            <div style={{ width: 80, height: 80 }}>
-                              <CircularProgressBar value={78} />
-                            </div>
-                          </div>
-                        </div>
                       </div>
                       <div className="modal-footer">
                         <button
@@ -726,26 +557,6 @@ const Skills = () => {
                           além de ser altamente compatível com uma variedade de
                           plataformas e navegadores.
                         </p>
-                        <div>
-                          <div className="d-flex align-items-baseline justify-content-between my-3">
-                            <p>Componentes</p>
-                            <div style={{ width: 80, height: 80 }}>
-                              <CircularProgressBar value={96} />
-                            </div>
-                          </div>
-                          <div className="d-flex align-items-baseline justify-content-between my-3">
-                            <p>Tipografia</p>
-                            <div style={{ width: 80, height: 80 }}>
-                              <CircularProgressBar value={92} />
-                            </div>
-                          </div>
-                          <div className="d-flex align-items-baseline justify-content-between my-3">
-                            <p>Estilos responsivos</p>
-                            <div style={{ width: 80, height: 80 }}>
-                              <CircularProgressBar value={94} />
-                            </div>
-                          </div>
-                        </div>
                       </div>
                       <div className="modal-footer">
                         <button
@@ -816,26 +627,224 @@ const Skills = () => {
                           pequenas classes de utilidade em vez de escrever CSS
                           personalizado.
                         </p>
-                        <div>
-                          <div className="d-flex align-items-baseline justify-content-between my-3">
-                            <p>Utility-First</p>
-                            <div style={{ width: 80, height: 80 }}>
-                              <CircularProgressBar value={96} />
-                            </div>
-                          </div>
-                          <div className="d-flex align-items-baseline justify-content-between my-3">
-                            <p>Classes Utilitárias</p>
-                            <div style={{ width: 80, height: 80 }}>
-                              <CircularProgressBar value={94} />
-                            </div>
-                          </div>
-                          <div className="d-flex align-items-baseline justify-content-between my-3">
-                            <p>Customização Flexível</p>
-                            <div style={{ width: 80, height: 80 }}>
-                              <CircularProgressBar value={96} />
-                            </div>
-                          </div>
-                        </div>
+                      </div>
+                      <div className="modal-footer">
+                        <button
+                          type="button"
+                          className="btn btn-secondary"
+                          data-bs-dismiss="modal"
+                        >
+                          Fechar
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="col">
+            <div className="card h-100 text-dark bg-light border-secundary">
+              <SiChakraui size={100} />
+              <div className="card-body">
+                <h5 className="card-title">Chakra UI</h5>
+                <p className="card-text">
+                  O "chakra UI" é uma biblioteca de componentes de interface de
+                  usuário (UI) para React, um popular framework JavaScript usado
+                  para construir interfaces de usuário.
+                </p>
+                {/* <!-- Button trigger modal --> */}
+                <button
+                  type="button"
+                  className="btn btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#chakraui"
+                >
+                  Ver Mais
+                </button>
+
+                {/* <!-- Modal --> */}
+                <div
+                  className="modal fade"
+                  id="chakraui"
+                  tabIndex="-1"
+                  aria-labelledby="chakrauiLabel"
+                  aria-hidden="true"
+                >
+                  <div className="modal-dialog">
+                    <div className="modal-content">
+                      <div className="modal-header">
+                        <h1 className="modal-title fs-5" id="chakrauiLabel">
+                          <SiChakraui size={50} /> Chakra UI
+                        </h1>
+                        <button
+                          type="button"
+                          className="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                      <div className="modal-body">
+                        <p className="my-3 mx-auto">
+                          O "chakra UI" é uma biblioteca de componentes de
+                          interface de usuário (UI) para React, um popular
+                          framework JavaScript usado para construir interfaces
+                          de usuário. Chakra UI oferece uma coleção de
+                          componentes reutilizáveis e acessíveis que facilitam o
+                          desenvolvimento de interfaces modernas e responsivas.
+                          Aqui estão alguns pontos principais sobre o Chakra UI:{" "}
+                          <br></br>1 - Componentes Acessíveis <br></br>2 -
+                          Tematização Fácil <br></br>3 - Estilo Integrado{" "}
+                          <br></br>4 - Responsividade <br></br>5 -Componentes
+                          Moduláveis
+                        </p>
+                      </div>
+                      <div className="modal-footer">
+                        <button
+                          type="button"
+                          className="btn btn-secondary"
+                          data-bs-dismiss="modal"
+                        >
+                          Fechar
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="col">
+            <div className="card h-100 text-dark bg-light border-secundary">
+              <SiNextdotjs size={100} />
+              <div className="card-body">
+                <h5 className="card-title">Next.js</h5>
+                <p className="card-text">
+                  Next.js é um framework de desenvolvimento web construído sobre
+                  o React, desenvolvido pela Vercel. Ele oferece uma série de
+                  funcionalidades que facilitam a criação de aplicações web e
+                  sites estáticos otimizados, rápidos e escaláveis
+                </p>
+                {/* <!-- Button trigger modal --> */}
+                <button
+                  type="button"
+                  className="btn btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#nextjs"
+                >
+                  Ver Mais
+                </button>
+
+                {/* <!-- Modal --> */}
+                <div
+                  className="modal fade"
+                  id="nextjs"
+                  tabIndex="-1"
+                  aria-labelledby="nextjsLabel"
+                  aria-hidden="true"
+                >
+                  <div className="modal-dialog">
+                    <div className="modal-content">
+                      <div className="modal-header">
+                        <h1 className="modal-title fs-5" id="nextjsLabel">
+                          <SiNextdotjs size={50} /> Next.js
+                        </h1>
+                        <button
+                          type="button"
+                          className="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                      <div className="modal-body">
+                        <p className="my-3 mx-auto">
+                          Next.js é um framework de desenvolvimento web
+                          construído sobre o React, desenvolvido pela Vercel.
+                          Ele oferece uma série de funcionalidades que facilitam
+                          a criação de aplicações web e sites estáticos
+                          otimizados, rápidos e escaláveis. Aqui estão alguns
+                          dos principais recursos e vantagens do Next.js:{" "}
+                          <br></br>1 - Renderização do lado do servidor (SSR){" "}
+                          <br></br>2 - Renderização do lado do cliente (CSR){" "}
+                          <br></br>3 - Incremental Static Regeneration (ISR)
+                        </p>
+                      </div>
+                      <div className="modal-footer">
+                        <button
+                          type="button"
+                          className="btn btn-secondary"
+                          data-bs-dismiss="modal"
+                        >
+                          Fechar
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="col">
+            <div className="card h-100 text-dark bg-light border-secundary">
+              <FaNode size={100} />
+              <div className="card-body">
+                <h5 className="card-title">Node.js</h5>
+                <p className="card-text">
+                  Node.js é um ambiente de execução de JavaScript que permite
+                  executar código JavaScript no lado do servidor. Node.js é
+                  construído sobre o motor V8 do Google Chrome, que compila
+                  JavaScript diretamente para código de máquina, tornando a
+                  execução do código muito rápida.
+                </p>
+                {/* <!-- Button trigger modal --> */}
+                <button
+                  type="button"
+                  className="btn btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#nodejs"
+                >
+                  Ver Mais
+                </button>
+
+                {/* <!-- Modal --> */}
+                <div
+                  className="modal fade"
+                  id="nodejs"
+                  tabIndex="-1"
+                  aria-labelledby="nodejsLabel"
+                  aria-hidden="true"
+                >
+                  <div className="modal-dialog">
+                    <div className="modal-content">
+                      <div className="modal-header">
+                        <h1 className="modal-title fs-5" id="nodejsLabel">
+                          <FaNode size={50} /> Node.js
+                        </h1>
+                        <button
+                          type="button"
+                          className="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                      <div className="modal-body">
+                        <p className="my-3 mx-auto">
+                          Node.js é um ambiente de execução de JavaScript que
+                          permite executar código JavaScript no lado do
+                          servidor. Desenvolvido por Ryan Dahl em 2009, Node.js
+                          é construído sobre o motor V8 do Google Chrome, que
+                          compila JavaScript diretamente para código de máquina,
+                          tornando a execução do código muito rápida. Aqui estão
+                          alguns aspectos importantes e vantagens do Node.js:
+                          <br></br>1 - JavaScript no lado do servidor
+                          <br></br>2 - Modelo de E/S não bloqueante
+                          <br></br>3 - Extensibilidade e modularidade
+                          <br></br>4 - Comunidade ativa e ecossistema robusto
+                          <br></br>5 - Desempenho e escalabilidade
+                        </p>
                       </div>
                       <div className="modal-footer">
                         <button

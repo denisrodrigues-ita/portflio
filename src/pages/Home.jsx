@@ -7,9 +7,9 @@ import { BsDownload } from "react-icons/bs";
 import cv from "../assets/CV.pdf";
 
 const Home = () => {
-  const texto1 = "Desenvolvedor Front-end e Mobile.";
+  const texto1 = "Desenvolvedor Full Stack.";
   const texto2 =
-    "Conhecimentos em HTML, CSS, Javascript, React.js, React Native, Bootstrap 5 e muito mais.";
+    "Conhecimentos em React, React Native, Next.js, frameworks css, principais libs do mercado, Node.js, banco de dados SQL e NoSQL, e muito mais.";
   const texto3 = "Análise e desenvolvimento de Sistemas.";
 
   document.title = "Denis Rodrigues - Home";
